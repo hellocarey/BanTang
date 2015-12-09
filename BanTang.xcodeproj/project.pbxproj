@@ -1,0 +1,891 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE0BFC261C1275D100CAB293 /* BTTopicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0BFC241C1275D100CAB293 /* BTTopicDetailViewController.m */; };
+		CE0BFC271C1275D100CAB293 /* BTTopicDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0BFC251C1275D100CAB293 /* BTTopicDetailViewController.xib */; };
+		CE2305A61C0ED7F3003AA80C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2305A51C0ED7F3003AA80C /* main.m */; };
+		CE2305B11C0ED7F3003AA80C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2305B01C0ED7F3003AA80C /* Assets.xcassets */; };
+		CE2305BF1C0ED7F3003AA80C /* BanTangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2305BE1C0ED7F3003AA80C /* BanTangTests.m */; };
+		CE2305CA1C0ED7F3003AA80C /* BanTangUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2305C91C0ED7F3003AA80C /* BanTangUITests.m */; };
+		CE2305EE1C0ED932003AA80C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2305E11C0ED932003AA80C /* AppDelegate.m */; };
+		CECCDD341C0EEFF200A4FA6B /* BTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD331C0EEFF200A4FA6B /* BTTabBarController.m */; };
+		CECCDD3A1C0EF19D00A4FA6B /* BTGoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD391C0EF19D00A4FA6B /* BTGoodViewController.m */; };
+		CECCDD3D1C0EF1AE00A4FA6B /* BTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD3C1C0EF1AE00A4FA6B /* BTHomeViewController.m */; };
+		CECCDD401C0EF1BD00A4FA6B /* BTMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD3F1C0EF1BD00A4FA6B /* BTMessageViewController.m */; };
+		CECCDD431C10359100A4FA6B /* BTNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD421C10359100A4FA6B /* BTNavigationViewController.m */; };
+		CECCDD461C10384500A4FA6B /* BTHomeNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD451C10384500A4FA6B /* BTHomeNavigationViewController.m */; };
+		CECCDD4D1C10431A00A4FA6B /* BTHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD4C1C10431A00A4FA6B /* BTHttpUtil.m */; };
+		CECCDD581C1047B500A4FA6B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECCDD561C1047B500A4FA6B /* Launch Screen.storyboard */; };
+		CECCDD5B1C1048C900A4FA6B /* BTMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD5A1C1048C900A4FA6B /* BTMyViewController.m */; };
+		CECCDD5F1C10496A00A4FA6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CECCDD5E1C10496A00A4FA6B /* Info.plist */; };
+		CECCDD631C106B3400A4FA6B /* BTTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD621C106B3400A4FA6B /* BTTopic.m */; };
+		CECCDD661C106BC600A4FA6B /* BTBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD651C106BC600A4FA6B /* BTBanner.m */; };
+		CECCDD691C106CD000A4FA6B /* BTEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD681C106CD000A4FA6B /* BTEntry.m */; };
+		CECCDDB61C107CB800A4FA6B /* BTTopicViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDDB41C107CB800A4FA6B /* BTTopicViewCell.m */; };
+		CECCDDB71C107CB800A4FA6B /* BTTopicViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECCDDB51C107CB800A4FA6B /* BTTopicViewCell.xib */; };
+		CECCDDBB1C10921400A4FA6B /* BTEntryView.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDDBA1C10921400A4FA6B /* BTEntryView.m */; };
+		CECCDDBE1C1095EA00A4FA6B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDDBD1C1095EA00A4FA6B /* UIView+Extension.m */; };
+		F151BA77D20AE8808839D3FE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D90D0710494D384576E1648 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE2305BB1C0ED7F3003AA80C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2305991C0ED7F3003AA80C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2305A01C0ED7F3003AA80C;
+			remoteInfo = BanTang;
+		};
+		CE2305C61C0ED7F3003AA80C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2305991C0ED7F3003AA80C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2305A01C0ED7F3003AA80C;
+			remoteInfo = BanTang;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D7A606228221530EFB80A36 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8D90D0710494D384576E1648 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24B16AA4F07E7E45140E1A1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CE0BFC231C1275D100CAB293 /* BTTopicDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTopicDetailViewController.h; sourceTree = "<group>"; };
+		CE0BFC241C1275D100CAB293 /* BTTopicDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTopicDetailViewController.m; sourceTree = "<group>"; };
+		CE0BFC251C1275D100CAB293 /* BTTopicDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTTopicDetailViewController.xib; sourceTree = "<group>"; };
+		CE2305A11C0ED7F3003AA80C /* BanTang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BanTang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2305A51C0ED7F3003AA80C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE2305B01C0ED7F3003AA80C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE2305BA1C0ED7F3003AA80C /* BanTangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BanTangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2305BE1C0ED7F3003AA80C /* BanTangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BanTangTests.m; sourceTree = "<group>"; };
+		CE2305C01C0ED7F3003AA80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2305C51C0ED7F3003AA80C /* BanTangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BanTangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2305C91C0ED7F3003AA80C /* BanTangUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BanTangUITests.m; sourceTree = "<group>"; };
+		CE2305CB1C0ED7F3003AA80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2305E01C0ED932003AA80C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE2305E11C0ED932003AA80C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CECCDD321C0EEFF200A4FA6B /* BTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTabBarController.h; sourceTree = "<group>"; };
+		CECCDD331C0EEFF200A4FA6B /* BTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTabBarController.m; sourceTree = "<group>"; };
+		CECCDD381C0EF19D00A4FA6B /* BTGoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTGoodViewController.h; sourceTree = "<group>"; };
+		CECCDD391C0EF19D00A4FA6B /* BTGoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTGoodViewController.m; sourceTree = "<group>"; };
+		CECCDD3B1C0EF1AE00A4FA6B /* BTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHomeViewController.h; sourceTree = "<group>"; };
+		CECCDD3C1C0EF1AE00A4FA6B /* BTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHomeViewController.m; sourceTree = "<group>"; };
+		CECCDD3E1C0EF1BD00A4FA6B /* BTMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMessageViewController.h; sourceTree = "<group>"; };
+		CECCDD3F1C0EF1BD00A4FA6B /* BTMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMessageViewController.m; sourceTree = "<group>"; };
+		CECCDD411C10359100A4FA6B /* BTNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTNavigationViewController.h; sourceTree = "<group>"; };
+		CECCDD421C10359100A4FA6B /* BTNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTNavigationViewController.m; sourceTree = "<group>"; };
+		CECCDD441C10384500A4FA6B /* BTHomeNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHomeNavigationViewController.h; sourceTree = "<group>"; };
+		CECCDD451C10384500A4FA6B /* BTHomeNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHomeNavigationViewController.m; sourceTree = "<group>"; };
+		CECCDD4B1C10431A00A4FA6B /* BTHttpUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHttpUtil.h; sourceTree = "<group>"; };
+		CECCDD4C1C10431A00A4FA6B /* BTHttpUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHttpUtil.m; sourceTree = "<group>"; };
+		CECCDD4E1C10435400A4FA6B /* BTHttpConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHttpConstant.h; sourceTree = "<group>"; };
+		CECCDD561C1047B500A4FA6B /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		CECCDD591C1048C900A4FA6B /* BTMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTMyViewController.h; path = BanTang/My/Controller/BTMyViewController.h; sourceTree = SOURCE_ROOT; };
+		CECCDD5A1C1048C900A4FA6B /* BTMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTMyViewController.m; path = BanTang/My/Controller/BTMyViewController.m; sourceTree = SOURCE_ROOT; };
+		CECCDD5E1C10496A00A4FA6B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECCDD601C10499B00A4FA6B /* BanTang.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BanTang.pch; sourceTree = "<group>"; };
+		CECCDD611C106B3400A4FA6B /* BTTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTopic.h; sourceTree = "<group>"; };
+		CECCDD621C106B3400A4FA6B /* BTTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTopic.m; sourceTree = "<group>"; };
+		CECCDD641C106BC600A4FA6B /* BTBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBanner.h; sourceTree = "<group>"; };
+		CECCDD651C106BC600A4FA6B /* BTBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBanner.m; sourceTree = "<group>"; };
+		CECCDD671C106CD000A4FA6B /* BTEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTEntry.h; sourceTree = "<group>"; };
+		CECCDD681C106CD000A4FA6B /* BTEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTEntry.m; sourceTree = "<group>"; };
+		CECCDDB31C107CB800A4FA6B /* BTTopicViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTopicViewCell.h; sourceTree = "<group>"; };
+		CECCDDB41C107CB800A4FA6B /* BTTopicViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTopicViewCell.m; sourceTree = "<group>"; };
+		CECCDDB51C107CB800A4FA6B /* BTTopicViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTTopicViewCell.xib; sourceTree = "<group>"; };
+		CECCDDB81C107F4600A4FA6B /* FZLT_Light.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = FZLT_Light.TTF; sourceTree = "<group>"; };
+		CECCDDB91C10921400A4FA6B /* BTEntryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTEntryView.h; sourceTree = "<group>"; };
+		CECCDDBA1C10921400A4FA6B /* BTEntryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTEntryView.m; sourceTree = "<group>"; };
+		CECCDDBC1C1095EA00A4FA6B /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		CECCDDBD1C1095EA00A4FA6B /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE23059E1C0ED7F3003AA80C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F151BA77D20AE8808839D3FE /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2305B71C0ED7F3003AA80C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2305C21C0ED7F3003AA80C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39284072649BEF9A38B5D31C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D7A606228221530EFB80A36 /* Pods.debug.xcconfig */,
+				A24B16AA4F07E7E45140E1A1 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7F0F8C233F02BE5AA7E2021 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D90D0710494D384576E1648 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE2305981C0ED7F3003AA80C = {
+			isa = PBXGroup;
+			children = (
+				CE2305A31C0ED7F3003AA80C /* BanTang */,
+				CE2305BD1C0ED7F3003AA80C /* BanTangTests */,
+				CE2305C81C0ED7F3003AA80C /* BanTangUITests */,
+				CE2305A21C0ED7F3003AA80C /* Products */,
+				39284072649BEF9A38B5D31C /* Pods */,
+				B7F0F8C233F02BE5AA7E2021 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE2305A21C0ED7F3003AA80C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2305A11C0ED7F3003AA80C /* BanTang.app */,
+				CE2305BA1C0ED7F3003AA80C /* BanTangTests.xctest */,
+				CE2305C51C0ED7F3003AA80C /* BanTangUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE2305A31C0ED7F3003AA80C /* BanTang */ = {
+			isa = PBXGroup;
+			children = (
+				CECCDD5E1C10496A00A4FA6B /* Info.plist */,
+				CECCDD541C1047B500A4FA6B /* Config */,
+				CE2305F31C0EE1AA003AA80C /* My */,
+				CE2305F01C0EE19A003AA80C /* Utils */,
+				CE2305D71C0ED932003AA80C /* Good */,
+				CE2305DB1C0ED932003AA80C /* Home */,
+				CE2305DF1C0ED932003AA80C /* Main */,
+				CE2305E21C0ED932003AA80C /* Message */,
+				CE2305EA1C0ED932003AA80C /* Publish */,
+				CE2305B01C0ED7F3003AA80C /* Assets.xcassets */,
+				CE2305A41C0ED7F3003AA80C /* Supporting Files */,
+			);
+			path = BanTang;
+			sourceTree = "<group>";
+		};
+		CE2305A41C0ED7F3003AA80C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE2305A51C0ED7F3003AA80C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE2305BD1C0ED7F3003AA80C /* BanTangTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE2305BE1C0ED7F3003AA80C /* BanTangTests.m */,
+				CE2305C01C0ED7F3003AA80C /* Info.plist */,
+			);
+			path = BanTangTests;
+			sourceTree = "<group>";
+		};
+		CE2305C81C0ED7F3003AA80C /* BanTangUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE2305C91C0ED7F3003AA80C /* BanTangUITests.m */,
+				CE2305CB1C0ED7F3003AA80C /* Info.plist */,
+			);
+			path = BanTangUITests;
+			sourceTree = "<group>";
+		};
+		CE2305D71C0ED932003AA80C /* Good */ = {
+			isa = PBXGroup;
+			children = (
+				CE2305D81C0ED932003AA80C /* Controller */,
+				CE2305D91C0ED932003AA80C /* Model */,
+				CE2305DA1C0ED932003AA80C /* View */,
+			);
+			path = Good;
+			sourceTree = "<group>";
+		};
+		CE2305D81C0ED932003AA80C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CECCDD381C0EF19D00A4FA6B /* BTGoodViewController.h */,
+				CECCDD391C0EF19D00A4FA6B /* BTGoodViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE2305D91C0ED932003AA80C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE2305DA1C0ED932003AA80C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE2305DB1C0ED932003AA80C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CE2305DC1C0ED932003AA80C /* Controller */,
+				CE2305DD1C0ED932003AA80C /* Model */,
+				CE2305DE1C0ED932003AA80C /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CE2305DC1C0ED932003AA80C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CECCDD3B1C0EF1AE00A4FA6B /* BTHomeViewController.h */,
+				CECCDD3C1C0EF1AE00A4FA6B /* BTHomeViewController.m */,
+				CE0BFC231C1275D100CAB293 /* BTTopicDetailViewController.h */,
+				CE0BFC241C1275D100CAB293 /* BTTopicDetailViewController.m */,
+				CE0BFC251C1275D100CAB293 /* BTTopicDetailViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE2305DD1C0ED932003AA80C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CECCDD611C106B3400A4FA6B /* BTTopic.h */,
+				CECCDD621C106B3400A4FA6B /* BTTopic.m */,
+				CECCDD641C106BC600A4FA6B /* BTBanner.h */,
+				CECCDD651C106BC600A4FA6B /* BTBanner.m */,
+				CECCDD671C106CD000A4FA6B /* BTEntry.h */,
+				CECCDD681C106CD000A4FA6B /* BTEntry.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE2305DE1C0ED932003AA80C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CECCDDB31C107CB800A4FA6B /* BTTopicViewCell.h */,
+				CECCDDB41C107CB800A4FA6B /* BTTopicViewCell.m */,
+				CECCDDB51C107CB800A4FA6B /* BTTopicViewCell.xib */,
+				CECCDDB91C10921400A4FA6B /* BTEntryView.h */,
+				CECCDDBA1C10921400A4FA6B /* BTEntryView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE2305DF1C0ED932003AA80C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CE2305E01C0ED932003AA80C /* AppDelegate.h */,
+				CE2305E11C0ED932003AA80C /* AppDelegate.m */,
+				CECCDD321C0EEFF200A4FA6B /* BTTabBarController.h */,
+				CECCDD331C0EEFF200A4FA6B /* BTTabBarController.m */,
+				CECCDD411C10359100A4FA6B /* BTNavigationViewController.h */,
+				CECCDD421C10359100A4FA6B /* BTNavigationViewController.m */,
+				CECCDD441C10384500A4FA6B /* BTHomeNavigationViewController.h */,
+				CECCDD451C10384500A4FA6B /* BTHomeNavigationViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CE2305E21C0ED932003AA80C /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				CE2305E31C0ED932003AA80C /* Controller */,
+				CE2305E41C0ED932003AA80C /* Model */,
+				CE2305E51C0ED932003AA80C /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		CE2305E31C0ED932003AA80C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CECCDD3E1C0EF1BD00A4FA6B /* BTMessageViewController.h */,
+				CECCDD3F1C0EF1BD00A4FA6B /* BTMessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE2305E41C0ED932003AA80C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE2305E51C0ED932003AA80C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE2305EA1C0ED932003AA80C /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				CE2305EB1C0ED932003AA80C /* Controller */,
+				CE2305EC1C0ED932003AA80C /* Model */,
+				CE2305ED1C0ED932003AA80C /* View */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		CE2305EB1C0ED932003AA80C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE2305EC1C0ED932003AA80C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE2305ED1C0ED932003AA80C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE2305F01C0EE19A003AA80C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CE2305F11C0EE19A003AA80C /* Category */,
+				CE2305F21C0EE19A003AA80C /* Tool */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CE2305F11C0EE19A003AA80C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CECCDDBC1C1095EA00A4FA6B /* UIView+Extension.h */,
+				CECCDDBD1C1095EA00A4FA6B /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CE2305F21C0EE19A003AA80C /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				CECCDD4A1C10431A00A4FA6B /* Http */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		CE2305F31C0EE1AA003AA80C /* My */ = {
+			isa = PBXGroup;
+			children = (
+				CE2305F41C0EE1AA003AA80C /* Controller */,
+				CE2305F51C0EE1AA003AA80C /* Model */,
+				CE2305F61C0EE1AA003AA80C /* View */,
+			);
+			name = My;
+			path = Publish/My;
+			sourceTree = "<group>";
+		};
+		CE2305F41C0EE1AA003AA80C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CECCDD591C1048C900A4FA6B /* BTMyViewController.h */,
+				CECCDD5A1C1048C900A4FA6B /* BTMyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE2305F51C0EE1AA003AA80C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE2305F61C0EE1AA003AA80C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CECCDD4A1C10431A00A4FA6B /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				CECCDD4B1C10431A00A4FA6B /* BTHttpUtil.h */,
+				CECCDD4C1C10431A00A4FA6B /* BTHttpUtil.m */,
+				CECCDD4E1C10435400A4FA6B /* BTHttpConstant.h */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		CECCDD541C1047B500A4FA6B /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				CECCDDB81C107F4600A4FA6B /* FZLT_Light.TTF */,
+				CECCDD561C1047B500A4FA6B /* Launch Screen.storyboard */,
+				CECCDD601C10499B00A4FA6B /* BanTang.pch */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE2305A01C0ED7F3003AA80C /* BanTang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2305CE1C0ED7F3003AA80C /* Build configuration list for PBXNativeTarget "BanTang" */;
+			buildPhases = (
+				3A70A59DB13A26DD0023E5DF /* Check Pods Manifest.lock */,
+				CE23059D1C0ED7F3003AA80C /* Sources */,
+				CE23059E1C0ED7F3003AA80C /* Frameworks */,
+				CE23059F1C0ED7F3003AA80C /* Resources */,
+				AEA464CCC10B6F43A796B4D4 /* Embed Pods Frameworks */,
+				0068DB584F288B37A72D31E0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BanTang;
+			productName = BanTang;
+			productReference = CE2305A11C0ED7F3003AA80C /* BanTang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE2305B91C0ED7F3003AA80C /* BanTangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2305D11C0ED7F3003AA80C /* Build configuration list for PBXNativeTarget "BanTangTests" */;
+			buildPhases = (
+				CE2305B61C0ED7F3003AA80C /* Sources */,
+				CE2305B71C0ED7F3003AA80C /* Frameworks */,
+				CE2305B81C0ED7F3003AA80C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2305BC1C0ED7F3003AA80C /* PBXTargetDependency */,
+			);
+			name = BanTangTests;
+			productName = BanTangTests;
+			productReference = CE2305BA1C0ED7F3003AA80C /* BanTangTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE2305C41C0ED7F3003AA80C /* BanTangUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2305D41C0ED7F3003AA80C /* Build configuration list for PBXNativeTarget "BanTangUITests" */;
+			buildPhases = (
+				CE2305C11C0ED7F3003AA80C /* Sources */,
+				CE2305C21C0ED7F3003AA80C /* Frameworks */,
+				CE2305C31C0ED7F3003AA80C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2305C71C0ED7F3003AA80C /* PBXTargetDependency */,
+			);
+			name = BanTangUITests;
+			productName = BanTangUITests;
+			productReference = CE2305C51C0ED7F3003AA80C /* BanTangUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE2305991C0ED7F3003AA80C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BT;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = LJ;
+				TargetAttributes = {
+					CE2305A01C0ED7F3003AA80C = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = KW7T3GWHU3;
+					};
+					CE2305B91C0ED7F3003AA80C = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = KW7T3GWHU3;
+						TestTargetID = CE2305A01C0ED7F3003AA80C;
+					};
+					CE2305C41C0ED7F3003AA80C = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = KW7T3GWHU3;
+						TestTargetID = CE2305A01C0ED7F3003AA80C;
+					};
+				};
+			};
+			buildConfigurationList = CE23059C1C0ED7F3003AA80C /* Build configuration list for PBXProject "BanTang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE2305981C0ED7F3003AA80C;
+			productRefGroup = CE2305A21C0ED7F3003AA80C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE2305A01C0ED7F3003AA80C /* BanTang */,
+				CE2305B91C0ED7F3003AA80C /* BanTangTests */,
+				CE2305C41C0ED7F3003AA80C /* BanTangUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE23059F1C0ED7F3003AA80C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECCDDB71C107CB800A4FA6B /* BTTopicViewCell.xib in Resources */,
+				CECCDD581C1047B500A4FA6B /* Launch Screen.storyboard in Resources */,
+				CE2305B11C0ED7F3003AA80C /* Assets.xcassets in Resources */,
+				CE0BFC271C1275D100CAB293 /* BTTopicDetailViewController.xib in Resources */,
+				CECCDD5F1C10496A00A4FA6B /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2305B81C0ED7F3003AA80C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2305C31C0ED7F3003AA80C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0068DB584F288B37A72D31E0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A70A59DB13A26DD0023E5DF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AEA464CCC10B6F43A796B4D4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE23059D1C0ED7F3003AA80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECCDDB61C107CB800A4FA6B /* BTTopicViewCell.m in Sources */,
+				CECCDD461C10384500A4FA6B /* BTHomeNavigationViewController.m in Sources */,
+				CECCDD5B1C1048C900A4FA6B /* BTMyViewController.m in Sources */,
+				CECCDD691C106CD000A4FA6B /* BTEntry.m in Sources */,
+				CE0BFC261C1275D100CAB293 /* BTTopicDetailViewController.m in Sources */,
+				CECCDD341C0EEFF200A4FA6B /* BTTabBarController.m in Sources */,
+				CECCDD3D1C0EF1AE00A4FA6B /* BTHomeViewController.m in Sources */,
+				CECCDD3A1C0EF19D00A4FA6B /* BTGoodViewController.m in Sources */,
+				CECCDD661C106BC600A4FA6B /* BTBanner.m in Sources */,
+				CECCDD4D1C10431A00A4FA6B /* BTHttpUtil.m in Sources */,
+				CE2305A61C0ED7F3003AA80C /* main.m in Sources */,
+				CECCDD631C106B3400A4FA6B /* BTTopic.m in Sources */,
+				CECCDD401C0EF1BD00A4FA6B /* BTMessageViewController.m in Sources */,
+				CE2305EE1C0ED932003AA80C /* AppDelegate.m in Sources */,
+				CECCDDBE1C1095EA00A4FA6B /* UIView+Extension.m in Sources */,
+				CECCDD431C10359100A4FA6B /* BTNavigationViewController.m in Sources */,
+				CECCDDBB1C10921400A4FA6B /* BTEntryView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2305B61C0ED7F3003AA80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2305BF1C0ED7F3003AA80C /* BanTangTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2305C11C0ED7F3003AA80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2305CA1C0ED7F3003AA80C /* BanTangUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE2305BC1C0ED7F3003AA80C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2305A01C0ED7F3003AA80C /* BanTang */;
+			targetProxy = CE2305BB1C0ED7F3003AA80C /* PBXContainerItemProxy */;
+		};
+		CE2305C71C0ED7F3003AA80C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2305A01C0ED7F3003AA80C /* BanTang */;
+			targetProxy = CE2305C61C0ED7F3003AA80C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE2305CC1C0ED7F3003AA80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE2305CD1C0ED7F3003AA80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE2305CF1C0ED7F3003AA80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D7A606228221530EFB80A36 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${SRCROOT}/BanTang/Config/BanTang.pch";
+				INFOPLIST_FILE = BanTang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liujun.BanTang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE2305D01C0ED7F3003AA80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A24B16AA4F07E7E45140E1A1 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${SRCROOT}/BanTang/Config/BanTang.pch";
+				INFOPLIST_FILE = BanTang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liujun.BanTang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE2305D21C0ED7F3003AA80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BanTangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liujun.BanTangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BanTang.app/BanTang";
+			};
+			name = Debug;
+		};
+		CE2305D31C0ED7F3003AA80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BanTangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liujun.BanTangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BanTang.app/BanTang";
+			};
+			name = Release;
+		};
+		CE2305D51C0ED7F3003AA80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BanTangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liujun.BanTangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BanTang;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CE2305D61C0ED7F3003AA80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BanTangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liujun.BanTangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BanTang;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE23059C1C0ED7F3003AA80C /* Build configuration list for PBXProject "BanTang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2305CC1C0ED7F3003AA80C /* Debug */,
+				CE2305CD1C0ED7F3003AA80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2305CE1C0ED7F3003AA80C /* Build configuration list for PBXNativeTarget "BanTang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2305CF1C0ED7F3003AA80C /* Debug */,
+				CE2305D01C0ED7F3003AA80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2305D11C0ED7F3003AA80C /* Build configuration list for PBXNativeTarget "BanTangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2305D21C0ED7F3003AA80C /* Debug */,
+				CE2305D31C0ED7F3003AA80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2305D41C0ED7F3003AA80C /* Build configuration list for PBXNativeTarget "BanTangUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2305D51C0ED7F3003AA80C /* Debug */,
+				CE2305D61C0ED7F3003AA80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE2305991C0ED7F3003AA80C /* Project object */;
+}

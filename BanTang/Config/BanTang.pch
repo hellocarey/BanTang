@@ -1,0 +1,17 @@
+//
+//  BanTang.pch
+//  BanTang
+//
+//  Created by User on 15/12/3.
+//  Copyright © 2015年 LJ. All rights reserved.
+//
+
+#import "SDWebImage/UIImageView+WebCache.h"
+#import "UIView+Extension.h"
+#import "BTHttpUtil.h"
+#import "BTHttpConstant.h"
+#define responseData [responseObject objectForKey:@"data"];
+#define screenW [[UIScreen mainScreen] bounds].size.width 
+#define screenH [[UIScreen mainScreen] bounds].size.height
+#define tarBarButtom 49
+#define navigationHeight 64
