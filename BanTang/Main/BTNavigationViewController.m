@@ -7,6 +7,7 @@
 //
 
 #import "BTNavigationViewController.h"
+#import "UIImage+Image.h"
 
 @interface BTNavigationViewController ()
 
@@ -18,7 +19,9 @@
     
     UINavigationBar *navigationBar = [UINavigationBar appearance];
     
-    [navigationBar setBackgroundColor:[UIColor redColor]];
+    [navigationBar setBackgroundImage:[UIImage imageWithColor:systemRed] forBarMetrics:UIBarMetricsDefault];
+    
+    navigationBar.barStyle = UIBarStyleBlackOpaque;
     
 }
 

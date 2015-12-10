@@ -33,6 +33,7 @@
 		CECCDDBE1C1095EA00A4FA6B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDDBD1C1095EA00A4FA6B /* UIView+Extension.m */; };
 		CEF60E4F1C195DAE00255802 /* BTHttpRusult.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF60E4E1C195DAE00255802 /* BTHttpRusult.m */; };
 		CEF60E521C195F1E00255802 /* BTHUDProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF60E511C195F1E00255802 /* BTHUDProgress.m */; };
+		CEF60E551C196BC200255802 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF60E541C196BC200255802 /* UIImage+Image.m */; };
 		F151BA77D20AE8808839D3FE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D90D0710494D384576E1648 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -109,6 +110,8 @@
 		CEF60E4E1C195DAE00255802 /* BTHttpRusult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHttpRusult.m; sourceTree = "<group>"; };
 		CEF60E501C195F1E00255802 /* BTHUDProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHUDProgress.h; sourceTree = "<group>"; };
 		CEF60E511C195F1E00255802 /* BTHUDProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHUDProgress.m; sourceTree = "<group>"; };
+		CEF60E531C196BC200255802 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		CEF60E541C196BC200255802 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -392,6 +395,8 @@
 		CE2305F11C0EE19A003AA80C /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				CEF60E531C196BC200255802 /* UIImage+Image.h */,
+				CEF60E541C196BC200255802 /* UIImage+Image.m */,
 				CECCDDBC1C1095EA00A4FA6B /* UIView+Extension.h */,
 				CECCDDBD1C1095EA00A4FA6B /* UIView+Extension.m */,
 			);
@@ -652,6 +657,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEF60E521C195F1E00255802 /* BTHUDProgress.m in Sources */,
+				CEF60E551C196BC200255802 /* UIImage+Image.m in Sources */,
 				CECCDDB61C107CB800A4FA6B /* BTTopicViewCell.m in Sources */,
 				CECCDD461C10384500A4FA6B /* BTHomeNavigationViewController.m in Sources */,
 				CECCDD5B1C1048C900A4FA6B /* BTMyViewController.m in Sources */,

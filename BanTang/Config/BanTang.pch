@@ -34,3 +34,5 @@
 #define navigationHeight 64
 //请求的页数
 #define PAGESIZE 20
+//系统的主红色
+#define systemRed [UIColor colorWithRed:229/255.0 green:57/255.0 blue:65/255.0 alpha:1.0]
