@@ -1,13 +1,13 @@
 //
-//  BTTabbar.h
+//  BTLoginController.h
 //  BanTang
 //
 //  Created by User on 15/12/10.
 //  Copyright © 2015年 LJ. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface BTTabbar : UITabBar
+@interface BTLoginController : UIViewController
 
 @end

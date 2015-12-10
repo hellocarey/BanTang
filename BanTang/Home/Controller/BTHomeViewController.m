@@ -47,6 +47,8 @@
     
     [self setUpDatasource:_currentPage];
     
+    self.automaticallyAdjustsScrollViewInsets = false;
+    
 }
 
 

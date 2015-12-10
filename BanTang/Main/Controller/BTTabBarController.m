@@ -13,6 +13,7 @@
 #import "BTMessageViewController.h"
 #import "BTNavigationViewController.h"
 #import "BTHomeNavigationViewController.h"
+#import "BTTabbar.h"
 
 @interface BTTabBarController ()
 
@@ -23,12 +24,18 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
+    
+    [self addChildrens];
+    
+    [self setupItemBar];
 
+}
+
+- (void)addChildrens{
+    
     [self addChildViewController:[[BTHomeViewController alloc] init] imageName:@"home" selectImageName:@"home_focus"];
     
     [self addChildViewController:[[BTGoodViewController alloc] init]  imageName:@"hot" selectImageName:@"hot-focus"];
-    
-    [self addChildViewController:[[BTMessageViewController alloc] init]  imageName:@"hot" selectImageName:@"hot-focus"];
     
     [self addChildViewController:[[BTMyViewController alloc] init]  imageName:@"user" selectImageName:@"user-focus"];
     
@@ -50,5 +57,10 @@
     
 }
 
+- (void)setupItemBar{
+    
+    [self setValue:[[BTTabbar alloc] init] forKey:@"tabBar"];
+    
+}
 
 @end

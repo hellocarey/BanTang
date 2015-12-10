@@ -24,6 +24,8 @@
     
     self.window.rootViewController = [[BTTabBarController alloc] init];
     
+    //self.window.backgroundColor = [UIColor whiteColor];
+    
     [self.window  makeKeyAndVisible];
     
     // Override point for customization after application launch.

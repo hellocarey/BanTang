@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -16,21 +16,18 @@
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Yea-pq-34p">
                         <rect key="frame" x="0.0" y="0.0" width="416" height="200"/>
-                        <animations/>
                         <constraints>
                             <constraint firstAttribute="height" constant="200" id="RpN-ZA-CZq"/>
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="别等大姨妈来了，才想起红糖" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I7R-E7-ppo">
                         <rect key="frame" x="117" y="210" width="182" height="17"/>
-                        <animations/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <color key="textColor" red="0.46666666666666667" green="0.46666666666666667" blue="0.46666666666666667" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="empty_love" translatesAutoresizingMaskIntoConstraints="NO" id="U4F-ox-9me">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="U4F-ox-9me">
                         <rect key="frame" x="188" y="237" width="20" height="20"/>
-                        <animations/>
                         <constraints>
                             <constraint firstAttribute="height" constant="20" id="PFw-IY-NLa"/>
                             <constraint firstAttribute="width" constant="20" id="zbL-bi-Qbq"/>
@@ -38,13 +35,11 @@
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3eU-32-pyz">
                         <rect key="frame" x="213" y="240" width="21" height="14.5"/>
-                        <animations/>
                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
-                <animations/>
                 <constraints>
                     <constraint firstItem="U4F-ox-9me" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" constant="-10" id="FPd-BR-Pc0"/>
                     <constraint firstItem="I7R-E7-ppo" firstAttribute="top" secondItem="Yea-pq-34p" secondAttribute="bottom" constant="10" id="GBR-av-wH2"/>
@@ -57,7 +52,6 @@
                     <constraint firstItem="3eU-32-pyz" firstAttribute="centerY" secondItem="U4F-ox-9me" secondAttribute="centerY" id="hrB-S9-C6q"/>
                 </constraints>
             </tableViewCellContentView>
-            <animations/>
             <connections>
                 <outlet property="numLabel" destination="3eU-32-pyz" id="8pg-iz-4KY"/>
                 <outlet property="title" destination="I7R-E7-ppo" id="i12-MD-ODn"/>
@@ -67,6 +61,6 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="empty_love" width="18" height="18"/>
+        <image name="heart" width="26" height="26"/>
     </resources>
 </document>

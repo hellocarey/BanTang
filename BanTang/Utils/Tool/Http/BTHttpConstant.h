@@ -13,3 +13,5 @@
 #define homeRequestUrl [requestURL stringByAppendingString:@"recommend/index"]
 
 #define getTopicByIdUrl [requestURL stringByAppendingString:@"topic/newInfo"]
+
+#define goodRequestUrl [requestURL stringByAppendingString:@"community/post/editorRec"]
