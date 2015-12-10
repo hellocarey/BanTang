@@ -13,13 +13,9 @@
 		CE2305B11C0ED7F3003AA80C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2305B01C0ED7F3003AA80C /* Assets.xcassets */; };
 		CE2305BF1C0ED7F3003AA80C /* BanTangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2305BE1C0ED7F3003AA80C /* BanTangTests.m */; };
 		CE2305CA1C0ED7F3003AA80C /* BanTangUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2305C91C0ED7F3003AA80C /* BanTangUITests.m */; };
-		CE2305EE1C0ED932003AA80C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2305E11C0ED932003AA80C /* AppDelegate.m */; };
-		CECCDD341C0EEFF200A4FA6B /* BTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD331C0EEFF200A4FA6B /* BTTabBarController.m */; };
 		CECCDD3A1C0EF19D00A4FA6B /* BTGoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD391C0EF19D00A4FA6B /* BTGoodViewController.m */; };
 		CECCDD3D1C0EF1AE00A4FA6B /* BTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD3C1C0EF1AE00A4FA6B /* BTHomeViewController.m */; };
 		CECCDD401C0EF1BD00A4FA6B /* BTMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD3F1C0EF1BD00A4FA6B /* BTMessageViewController.m */; };
-		CECCDD431C10359100A4FA6B /* BTNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD421C10359100A4FA6B /* BTNavigationViewController.m */; };
-		CECCDD461C10384500A4FA6B /* BTHomeNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD451C10384500A4FA6B /* BTHomeNavigationViewController.m */; };
 		CECCDD4D1C10431A00A4FA6B /* BTHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD4C1C10431A00A4FA6B /* BTHttpUtil.m */; };
 		CECCDD581C1047B500A4FA6B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECCDD561C1047B500A4FA6B /* Launch Screen.storyboard */; };
 		CECCDD5B1C1048C900A4FA6B /* BTMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD5A1C1048C900A4FA6B /* BTMyViewController.m */; };
@@ -34,6 +30,10 @@
 		CEF60E4F1C195DAE00255802 /* BTHttpRusult.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF60E4E1C195DAE00255802 /* BTHttpRusult.m */; };
 		CEF60E521C195F1E00255802 /* BTHUDProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF60E511C195F1E00255802 /* BTHUDProgress.m */; };
 		CEF60E551C196BC200255802 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF60E541C196BC200255802 /* UIImage+Image.m */; };
+		CEF60E611C1975FE00255802 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF60E581C1975FE00255802 /* AppDelegate.m */; };
+		CEF60E621C1975FE00255802 /* BTHomeNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF60E5A1C1975FE00255802 /* BTHomeNavigationViewController.m */; };
+		CEF60E631C1975FE00255802 /* BTNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF60E5C1C1975FE00255802 /* BTNavigationViewController.m */; };
+		CEF60E641C1975FE00255802 /* BTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF60E5E1C1975FE00255802 /* BTTabBarController.m */; };
 		F151BA77D20AE8808839D3FE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D90D0710494D384576E1648 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -70,20 +70,12 @@
 		CE2305C51C0ED7F3003AA80C /* BanTangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BanTangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2305C91C0ED7F3003AA80C /* BanTangUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BanTangUITests.m; sourceTree = "<group>"; };
 		CE2305CB1C0ED7F3003AA80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE2305E01C0ED932003AA80C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CE2305E11C0ED932003AA80C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CECCDD321C0EEFF200A4FA6B /* BTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTabBarController.h; sourceTree = "<group>"; };
-		CECCDD331C0EEFF200A4FA6B /* BTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTabBarController.m; sourceTree = "<group>"; };
 		CECCDD381C0EF19D00A4FA6B /* BTGoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTGoodViewController.h; sourceTree = "<group>"; };
 		CECCDD391C0EF19D00A4FA6B /* BTGoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTGoodViewController.m; sourceTree = "<group>"; };
 		CECCDD3B1C0EF1AE00A4FA6B /* BTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHomeViewController.h; sourceTree = "<group>"; };
 		CECCDD3C1C0EF1AE00A4FA6B /* BTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHomeViewController.m; sourceTree = "<group>"; };
 		CECCDD3E1C0EF1BD00A4FA6B /* BTMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMessageViewController.h; sourceTree = "<group>"; };
 		CECCDD3F1C0EF1BD00A4FA6B /* BTMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMessageViewController.m; sourceTree = "<group>"; };
-		CECCDD411C10359100A4FA6B /* BTNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTNavigationViewController.h; sourceTree = "<group>"; };
-		CECCDD421C10359100A4FA6B /* BTNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTNavigationViewController.m; sourceTree = "<group>"; };
-		CECCDD441C10384500A4FA6B /* BTHomeNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHomeNavigationViewController.h; sourceTree = "<group>"; };
-		CECCDD451C10384500A4FA6B /* BTHomeNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHomeNavigationViewController.m; sourceTree = "<group>"; };
 		CECCDD4B1C10431A00A4FA6B /* BTHttpUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHttpUtil.h; sourceTree = "<group>"; };
 		CECCDD4C1C10431A00A4FA6B /* BTHttpUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHttpUtil.m; sourceTree = "<group>"; };
 		CECCDD4E1C10435400A4FA6B /* BTHttpConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHttpConstant.h; sourceTree = "<group>"; };
@@ -112,6 +104,14 @@
 		CEF60E511C195F1E00255802 /* BTHUDProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHUDProgress.m; sourceTree = "<group>"; };
 		CEF60E531C196BC200255802 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
 		CEF60E541C196BC200255802 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		CEF60E571C1975FE00255802 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEF60E581C1975FE00255802 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEF60E591C1975FE00255802 /* BTHomeNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHomeNavigationViewController.h; sourceTree = "<group>"; };
+		CEF60E5A1C1975FE00255802 /* BTHomeNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHomeNavigationViewController.m; sourceTree = "<group>"; };
+		CEF60E5B1C1975FE00255802 /* BTNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTNavigationViewController.h; sourceTree = "<group>"; };
+		CEF60E5C1C1975FE00255802 /* BTNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTNavigationViewController.m; sourceTree = "<group>"; };
+		CEF60E5D1C1975FE00255802 /* BTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTabBarController.h; sourceTree = "<group>"; };
+		CEF60E5E1C1975FE00255802 /* BTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,14 +307,9 @@
 		CE2305DF1C0ED932003AA80C /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				CE2305E01C0ED932003AA80C /* AppDelegate.h */,
-				CE2305E11C0ED932003AA80C /* AppDelegate.m */,
-				CECCDD321C0EEFF200A4FA6B /* BTTabBarController.h */,
-				CECCDD331C0EEFF200A4FA6B /* BTTabBarController.m */,
-				CECCDD411C10359100A4FA6B /* BTNavigationViewController.h */,
-				CECCDD421C10359100A4FA6B /* BTNavigationViewController.m */,
-				CECCDD441C10384500A4FA6B /* BTHomeNavigationViewController.h */,
-				CECCDD451C10384500A4FA6B /* BTHomeNavigationViewController.m */,
+				CEF60E561C1975FE00255802 /* Controller */,
+				CEF60E5F1C1975FE00255802 /* Model */,
+				CEF60E601C1975FE00255802 /* View */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -467,6 +462,35 @@
 				CECCDD601C10499B00A4FA6B /* BanTang.pch */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		CEF60E561C1975FE00255802 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEF60E571C1975FE00255802 /* AppDelegate.h */,
+				CEF60E581C1975FE00255802 /* AppDelegate.m */,
+				CEF60E591C1975FE00255802 /* BTHomeNavigationViewController.h */,
+				CEF60E5A1C1975FE00255802 /* BTHomeNavigationViewController.m */,
+				CEF60E5B1C1975FE00255802 /* BTNavigationViewController.h */,
+				CEF60E5C1C1975FE00255802 /* BTNavigationViewController.m */,
+				CEF60E5D1C1975FE00255802 /* BTTabBarController.h */,
+				CEF60E5E1C1975FE00255802 /* BTTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CEF60E5F1C1975FE00255802 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEF60E601C1975FE00255802 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -656,25 +680,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF60E631C1975FE00255802 /* BTNavigationViewController.m in Sources */,
 				CEF60E521C195F1E00255802 /* BTHUDProgress.m in Sources */,
 				CEF60E551C196BC200255802 /* UIImage+Image.m in Sources */,
 				CECCDDB61C107CB800A4FA6B /* BTTopicViewCell.m in Sources */,
-				CECCDD461C10384500A4FA6B /* BTHomeNavigationViewController.m in Sources */,
 				CECCDD5B1C1048C900A4FA6B /* BTMyViewController.m in Sources */,
 				CECCDD691C106CD000A4FA6B /* BTEntry.m in Sources */,
 				CE0BFC261C1275D100CAB293 /* BTTopicDetailViewController.m in Sources */,
-				CECCDD341C0EEFF200A4FA6B /* BTTabBarController.m in Sources */,
 				CECCDD3D1C0EF1AE00A4FA6B /* BTHomeViewController.m in Sources */,
 				CECCDD3A1C0EF19D00A4FA6B /* BTGoodViewController.m in Sources */,
+				CEF60E641C1975FE00255802 /* BTTabBarController.m in Sources */,
+				CEF60E621C1975FE00255802 /* BTHomeNavigationViewController.m in Sources */,
 				CEF60E4F1C195DAE00255802 /* BTHttpRusult.m in Sources */,
 				CECCDD661C106BC600A4FA6B /* BTBanner.m in Sources */,
 				CECCDD4D1C10431A00A4FA6B /* BTHttpUtil.m in Sources */,
 				CE2305A61C0ED7F3003AA80C /* main.m in Sources */,
 				CECCDD631C106B3400A4FA6B /* BTTopic.m in Sources */,
 				CECCDD401C0EF1BD00A4FA6B /* BTMessageViewController.m in Sources */,
-				CE2305EE1C0ED932003AA80C /* AppDelegate.m in Sources */,
+				CEF60E611C1975FE00255802 /* AppDelegate.m in Sources */,
 				CECCDDBE1C1095EA00A4FA6B /* UIView+Extension.m in Sources */,
-				CECCDD431C10359100A4FA6B /* BTNavigationViewController.m in Sources */,
 				CECCDDBB1C10921400A4FA6B /* BTEntryView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
