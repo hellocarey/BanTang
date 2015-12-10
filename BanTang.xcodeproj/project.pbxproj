@@ -31,6 +31,8 @@
 		CECCDDB71C107CB800A4FA6B /* BTTopicViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECCDDB51C107CB800A4FA6B /* BTTopicViewCell.xib */; };
 		CECCDDBB1C10921400A4FA6B /* BTEntryView.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDDBA1C10921400A4FA6B /* BTEntryView.m */; };
 		CECCDDBE1C1095EA00A4FA6B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDDBD1C1095EA00A4FA6B /* UIView+Extension.m */; };
+		CEF60E4F1C195DAE00255802 /* BTHttpRusult.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF60E4E1C195DAE00255802 /* BTHttpRusult.m */; };
+		CEF60E521C195F1E00255802 /* BTHUDProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF60E511C195F1E00255802 /* BTHUDProgress.m */; };
 		F151BA77D20AE8808839D3FE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D90D0710494D384576E1648 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -103,6 +105,10 @@
 		CECCDDBA1C10921400A4FA6B /* BTEntryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTEntryView.m; sourceTree = "<group>"; };
 		CECCDDBC1C1095EA00A4FA6B /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		CECCDDBD1C1095EA00A4FA6B /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		CEF60E4D1C195DAE00255802 /* BTHttpRusult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHttpRusult.h; sourceTree = "<group>"; };
+		CEF60E4E1C195DAE00255802 /* BTHttpRusult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHttpRusult.m; sourceTree = "<group>"; };
+		CEF60E501C195F1E00255802 /* BTHUDProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHUDProgress.h; sourceTree = "<group>"; };
+		CEF60E511C195F1E00255802 /* BTHUDProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHUDProgress.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -396,6 +402,8 @@
 			isa = PBXGroup;
 			children = (
 				CECCDD4A1C10431A00A4FA6B /* Http */,
+				CEF60E501C195F1E00255802 /* BTHUDProgress.h */,
+				CEF60E511C195F1E00255802 /* BTHUDProgress.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -440,6 +448,8 @@
 				CECCDD4B1C10431A00A4FA6B /* BTHttpUtil.h */,
 				CECCDD4C1C10431A00A4FA6B /* BTHttpUtil.m */,
 				CECCDD4E1C10435400A4FA6B /* BTHttpConstant.h */,
+				CEF60E4D1C195DAE00255802 /* BTHttpRusult.h */,
+				CEF60E4E1C195DAE00255802 /* BTHttpRusult.m */,
 			);
 			path = Http;
 			sourceTree = "<group>";
@@ -641,6 +651,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF60E521C195F1E00255802 /* BTHUDProgress.m in Sources */,
 				CECCDDB61C107CB800A4FA6B /* BTTopicViewCell.m in Sources */,
 				CECCDD461C10384500A4FA6B /* BTHomeNavigationViewController.m in Sources */,
 				CECCDD5B1C1048C900A4FA6B /* BTMyViewController.m in Sources */,
@@ -649,6 +660,7 @@
 				CECCDD341C0EEFF200A4FA6B /* BTTabBarController.m in Sources */,
 				CECCDD3D1C0EF1AE00A4FA6B /* BTHomeViewController.m in Sources */,
 				CECCDD3A1C0EF19D00A4FA6B /* BTGoodViewController.m in Sources */,
+				CEF60E4F1C195DAE00255802 /* BTHttpRusult.m in Sources */,
 				CECCDD661C106BC600A4FA6B /* BTBanner.m in Sources */,
 				CECCDD4D1C10431A00A4FA6B /* BTHttpUtil.m in Sources */,
 				CE2305A61C0ED7F3003AA80C /* main.m in Sources */,

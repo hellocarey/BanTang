@@ -31,7 +31,7 @@
     
     [session POST:url parameters:[BTHttpUtil addParameters:parameters] success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
         
-        success(responseObject);
+        [self detailData:responseObject success:success failure:failure];
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         
@@ -47,7 +47,7 @@
     
     [session GET:url parameters:[BTHttpUtil addParameters:parameters] success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
         
-        success(responseObject);
+        [self detailData:responseObject success:success failure:failure];
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         
@@ -89,6 +89,23 @@
     [dictionary addEntriesFromDictionary:dic];
     
     return [dictionary copy];
+    
+}
+
+#pragma arguments - detail data
+- (void)detailData:(id)responseObject success:(SuccessBlock) success failure:(FailureBlock)failure{
+    
+    NSDictionary *dic = responseObject[@"data"];
+    
+    if(dic!=nil){
+        
+        success(dic);
+        
+    }else{
+        
+        failure(responseObject);
+        
+    }
     
 }
 

@@ -29,6 +29,10 @@
 
 @property(nonatomic,strong)NSMutableArray *bannerImageArray;
 
+@property(nonatomic,assign)NSInteger currentPage;
+
+@property(nonatomic,assign)BOOL isUp;
+
 @end
 
 @implementation BTHomeViewController
@@ -39,26 +43,48 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    [self setUpDatasource];
+    [[BTHUDProgress shareHUD] showHUD:self.view];
+    
+    [self setUpDatasource:_currentPage];
     
 }
 
 
-- (void)setUpDatasource{
+- (void)setUpDatasource:(NSInteger)page {
     
-    [[BTHttpUtil shareHttpUtil] GET:[requestURL stringByAppendingString:@"recommend/index"] parameters:@{@"page":@"0",@"pagesize":@"20"} success:^(id responseObject) {
+   
+    [[BTHttpUtil shareHttpUtil] GET:[requestURL stringByAppendingString:@"recommend/index"] parameters:@{ @"page":[NSString stringWithFormat:@"%zd",page] , @"pagesize":[NSString stringWithFormat:@"%zd",PAGESIZE] } success:^(id responseObject) {
+       
+        NSMutableArray *topDic = [BTTopic mj_objectArrayWithKeyValuesArray:responseObject[@"topic"]];
         
-        NSDictionary *dic = responseData;
-
-        self.topicArray = [BTTopic mj_objectArrayWithKeyValuesArray:[dic objectForKey:@"topic"]];
-
-        self.entryArray = [BTEntry mj_objectArrayWithKeyValuesArray:[dic objectForKey:@"entry_list"]];
-        
-        self.bannerArray = [BTBanner  mj_objectArrayWithKeyValuesArray:[dic objectForKey:@"banner"]];
+        if(!_topicTableView){
+            
+            self.topicArray = topDic;
+            
+            self.entryArray = [BTEntry mj_objectArrayWithKeyValuesArray:responseObject[@"entry_list"]];
+            
+            self.bannerArray = [BTBanner  mj_objectArrayWithKeyValuesArray:responseObject[@"banner"]];
+            
+            [[BTHUDProgress shareHUD] hideHUD:self.view];
+            
+        }else if(_isUp){
+            
+            _topicArray = topDic;
+            
+            [_topicTableView.mj_header endRefreshing];
+            
+        }else{
+            
+            [_topicArray addObjectsFromArray:topDic];
+            
+            [_topicTableView.mj_footer endRefreshing];
+            
+        }
         
         [self.topicTableView reloadData];
         
     } failure:^(id responseObject) {
+        
         
     }];
     
@@ -209,6 +235,28 @@
         _topicTableView.dataSource = self;
         
         [_topicTableView registerNib:[UINib nibWithNibName:NSStringFromClass([BTTopicViewCell class]) bundle:nil] forCellReuseIdentifier:@"topicCell"];
+        
+        _topicTableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+            
+            [_topicArray removeAllObjects];
+            
+            _isUp = true;
+            
+            _currentPage = 0;
+            
+            [self setUpDatasource:_currentPage];
+            
+        }];
+        
+        _topicTableView.mj_footer = [MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
+           
+            _isUp = false;
+            
+            _currentPage ++;
+            
+            [self setUpDatasource:_currentPage];
+            
+        }];
 
         [self.view addSubview:_topicTableView];
         

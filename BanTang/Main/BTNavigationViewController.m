@@ -14,6 +14,14 @@
 
 @implementation BTNavigationViewController
 
++(void)initialize{
+    
+    UINavigationBar *navigationBar = [UINavigationBar appearance];
+    
+    [navigationBar setBackgroundColor:[UIColor redColor]];
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
