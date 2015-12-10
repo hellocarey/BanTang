@@ -218,7 +218,6 @@
 			isa = PBXGroup;
 			children = (
 				CE2305D81C0ED932003AA80C /* Controller */,
-				CE2305D91C0ED932003AA80C /* Model */,
 				CE2305DA1C0ED932003AA80C /* View */,
 			);
 			path = Good;
@@ -228,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				CECCDD381C0EF19D00A4FA6B /* BTGoodViewController.h */,
+				CE2305D91C0ED932003AA80C /* Model */,
 				CECCDD391C0EF19D00A4FA6B /* BTGoodViewController.m */,
 			);
 			path = Controller;
@@ -237,7 +237,8 @@
 			isa = PBXGroup;
 			children = (
 			);
-			path = Model;
+			name = Model;
+			path = ../Model;
 			sourceTree = "<group>";
 		};
 		CE2305DA1C0ED932003AA80C /* View */ = {
