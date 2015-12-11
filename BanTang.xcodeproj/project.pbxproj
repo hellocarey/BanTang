@@ -17,7 +17,6 @@
 		CE4AD9071C19E9750039EDF0 /* BTGoodViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4AD9051C19E9750039EDF0 /* BTGoodViewCell.xib */; };
 		CE4AD90C1C19ED0E0039EDF0 /* BTGood.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4AD90B1C19ED0E0039EDF0 /* BTGood.m */; };
 		CEBEB90E1C197663009863F7 /* BTTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBEB90D1C197663009863F7 /* BTTabbar.m */; };
-		CEBEB9111C199FC2009863F7 /* BTLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBEB9101C199FC2009863F7 /* BTLoginController.m */; };
 		CECCDD3A1C0EF19D00A4FA6B /* BTGoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD391C0EF19D00A4FA6B /* BTGoodViewController.m */; };
 		CECCDD3D1C0EF1AE00A4FA6B /* BTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD3C1C0EF1AE00A4FA6B /* BTHomeViewController.m */; };
 		CECCDD401C0EF1BD00A4FA6B /* BTMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD3F1C0EF1BD00A4FA6B /* BTMessageViewController.m */; };
@@ -48,6 +47,8 @@
 		CEFF26C81C19F92200700A51 /* BTCircleImg.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFF26C71C19F92200700A51 /* BTCircleImg.m */; };
 		CEFF26D01C19FAA100700A51 /* BTGoodBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFF26CE1C19FAA100700A51 /* BTGoodBanner.m */; };
 		CEFF26D11C19FAA100700A51 /* BTGoodBanner.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFF26CF1C19FAA100700A51 /* BTGoodBanner.xib */; };
+		CEFF26D51C1A5C4200700A51 /* BTLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFF26D31C1A5C4200700A51 /* BTLoginController.m */; };
+		CEFF26D61C1A5C4200700A51 /* BTLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFF26D41C1A5C4200700A51 /* BTLoginController.xib */; };
 		F151BA77D20AE8808839D3FE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D90D0710494D384576E1648 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -91,8 +92,6 @@
 		CE4AD90B1C19ED0E0039EDF0 /* BTGood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTGood.m; sourceTree = "<group>"; };
 		CEBEB90C1C197663009863F7 /* BTTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTabbar.h; sourceTree = "<group>"; };
 		CEBEB90D1C197663009863F7 /* BTTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTabbar.m; sourceTree = "<group>"; };
-		CEBEB90F1C199FC2009863F7 /* BTLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTLoginController.h; path = BanTang/My/Controller/BTLoginController.h; sourceTree = SOURCE_ROOT; };
-		CEBEB9101C199FC2009863F7 /* BTLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTLoginController.m; path = BanTang/My/Controller/BTLoginController.m; sourceTree = SOURCE_ROOT; };
 		CECCDD381C0EF19D00A4FA6B /* BTGoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTGoodViewController.h; sourceTree = "<group>"; };
 		CECCDD391C0EF19D00A4FA6B /* BTGoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTGoodViewController.m; sourceTree = "<group>"; };
 		CECCDD3B1C0EF1AE00A4FA6B /* BTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHomeViewController.h; sourceTree = "<group>"; };
@@ -152,6 +151,9 @@
 		CEFF26CD1C19FAA100700A51 /* BTGoodBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTGoodBanner.h; sourceTree = "<group>"; };
 		CEFF26CE1C19FAA100700A51 /* BTGoodBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTGoodBanner.m; sourceTree = "<group>"; };
 		CEFF26CF1C19FAA100700A51 /* BTGoodBanner.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTGoodBanner.xib; sourceTree = "<group>"; };
+		CEFF26D21C1A5C4200700A51 /* BTLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTLoginController.h; path = BanTang/My/Controller/BTLoginController.h; sourceTree = SOURCE_ROOT; };
+		CEFF26D31C1A5C4200700A51 /* BTLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTLoginController.m; path = BanTang/My/Controller/BTLoginController.m; sourceTree = SOURCE_ROOT; };
+		CEFF26D41C1A5C4200700A51 /* BTLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BTLoginController.xib; path = BanTang/My/Controller/BTLoginController.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -466,8 +468,9 @@
 			children = (
 				CECCDD591C1048C900A4FA6B /* BTMyViewController.h */,
 				CECCDD5A1C1048C900A4FA6B /* BTMyViewController.m */,
-				CEBEB90F1C199FC2009863F7 /* BTLoginController.h */,
-				CEBEB9101C199FC2009863F7 /* BTLoginController.m */,
+				CEFF26D21C1A5C4200700A51 /* BTLoginController.h */,
+				CEFF26D31C1A5C4200700A51 /* BTLoginController.m */,
+				CEFF26D41C1A5C4200700A51 /* BTLoginController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -669,6 +672,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEFF26D11C19FAA100700A51 /* BTGoodBanner.xib in Resources */,
+				CEFF26D61C1A5C4200700A51 /* BTLoginController.xib in Resources */,
 				CE4AD9071C19E9750039EDF0 /* BTGoodViewCell.xib in Resources */,
 				CECCDDB71C107CB800A4FA6B /* BTTopicViewCell.xib in Resources */,
 				CECCDD581C1047B500A4FA6B /* Launch Screen.storyboard in Resources */,
@@ -748,6 +752,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEF60E631C1975FE00255802 /* BTNavigationViewController.m in Sources */,
+				CEFF26D51C1A5C4200700A51 /* BTLoginController.m in Sources */,
 				CEF60E521C195F1E00255802 /* BTHUDProgress.m in Sources */,
 				CEF60E551C196BC200255802 /* UIImage+Image.m in Sources */,
 				CECCDDB61C107CB800A4FA6B /* BTTopicViewCell.m in Sources */,
@@ -778,7 +783,6 @@
 				CEFF26B61C19F20700700A51 /* BTPic.m in Sources */,
 				CECCDDBB1C10921400A4FA6B /* BTEntryView.m in Sources */,
 				CEFF26D01C19FAA100700A51 /* BTGoodBanner.m in Sources */,
-				CEBEB9111C199FC2009863F7 /* BTLoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

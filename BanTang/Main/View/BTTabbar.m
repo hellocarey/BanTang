@@ -7,6 +7,7 @@
 //
 
 #import "BTTabbar.h"
+#import "BTLoginController.h"
 
 @implementation BTTabbar
 
@@ -45,7 +46,11 @@
  */
 - (void)publish{
     
+    BTLoginController *login = [[BTLoginController alloc] init];
     
+    [self.window.rootViewController presentViewController:login animated:YES completion:^{
+        
+    } ];
     
 }
 

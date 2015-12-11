@@ -73,7 +73,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    if(indexPath.row == 0){
+    if(indexPath.section == 0){
         
        BTGoodBanner *goodBanner = [tableView dequeueReusableCellWithIdentifier:@"goodBanner"];
         
