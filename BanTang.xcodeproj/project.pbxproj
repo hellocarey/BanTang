@@ -16,6 +16,7 @@
 		CE4AD9061C19E9750039EDF0 /* BTGoodViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4AD9041C19E9750039EDF0 /* BTGoodViewCell.m */; };
 		CE4AD9071C19E9750039EDF0 /* BTGoodViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4AD9051C19E9750039EDF0 /* BTGoodViewCell.xib */; };
 		CE4AD90C1C19ED0E0039EDF0 /* BTGood.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4AD90B1C19ED0E0039EDF0 /* BTGood.m */; };
+		CE7034401C1AD06A00C9A21D /* BTViewWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE70343F1C1AD06A00C9A21D /* BTViewWebController.m */; };
 		CEBEB90E1C197663009863F7 /* BTTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBEB90D1C197663009863F7 /* BTTabbar.m */; };
 		CECCDD3A1C0EF19D00A4FA6B /* BTGoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD391C0EF19D00A4FA6B /* BTGoodViewController.m */; };
 		CECCDD3D1C0EF1AE00A4FA6B /* BTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD3C1C0EF1AE00A4FA6B /* BTHomeViewController.m */; };
@@ -90,6 +91,8 @@
 		CE4AD9051C19E9750039EDF0 /* BTGoodViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTGoodViewCell.xib; sourceTree = "<group>"; };
 		CE4AD90A1C19ED0E0039EDF0 /* BTGood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTGood.h; sourceTree = "<group>"; };
 		CE4AD90B1C19ED0E0039EDF0 /* BTGood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTGood.m; sourceTree = "<group>"; };
+		CE70343E1C1AD06A00C9A21D /* BTViewWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTViewWebController.h; sourceTree = "<group>"; };
+		CE70343F1C1AD06A00C9A21D /* BTViewWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTViewWebController.m; sourceTree = "<group>"; };
 		CEBEB90C1C197663009863F7 /* BTTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTabbar.h; sourceTree = "<group>"; };
 		CEBEB90D1C197663009863F7 /* BTTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTabbar.m; sourceTree = "<group>"; };
 		CECCDD381C0EF19D00A4FA6B /* BTGoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTGoodViewController.h; sourceTree = "<group>"; };
@@ -280,6 +283,8 @@
 			children = (
 				CECCDD381C0EF19D00A4FA6B /* BTGoodViewController.h */,
 				CECCDD391C0EF19D00A4FA6B /* BTGoodViewController.m */,
+				CE70343E1C1AD06A00C9A21D /* BTViewWebController.h */,
+				CE70343F1C1AD06A00C9A21D /* BTViewWebController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -751,6 +756,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE7034401C1AD06A00C9A21D /* BTViewWebController.m in Sources */,
 				CEF60E631C1975FE00255802 /* BTNavigationViewController.m in Sources */,
 				CEFF26D51C1A5C4200700A51 /* BTLoginController.m in Sources */,
 				CEF60E521C195F1E00255802 /* BTHUDProgress.m in Sources */,

@@ -31,6 +31,10 @@
     
     [session POST:url parameters:[BTHttpUtil addParameters:parameters] success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
         
+        NSLog(@"%@",responseObject);
+        
+        
+        
         [self detailData:responseObject success:success failure:failure];
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {

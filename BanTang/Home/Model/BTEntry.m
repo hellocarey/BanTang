@@ -10,4 +10,10 @@
 
 @implementation BTEntry
 
++ (NSDictionary *)mj_replacedKeyFromPropertyName{
+    
+    return @{@"extend_id":@"extend"};
+}
+
 @end
+

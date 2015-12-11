@@ -27,7 +27,7 @@
     
     [self addChildrens];
     
-    [self setupItemBar];
+    //[self setupItemBar];
 
 }
 

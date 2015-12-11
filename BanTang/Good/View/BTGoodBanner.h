@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void (^ClickIndex)(NSString *index);
+
 @interface BTGoodBanner : UITableViewCell
 
 @property (strong, nonatomic) NSMutableArray *bannerArray;
+
+@property (copy, nonatomic)ClickIndex clickIndex;
 
 @end

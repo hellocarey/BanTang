@@ -53,7 +53,6 @@
 
 
 - (void)setUpDatasource:(NSInteger)page {
-    
    
     [[BTHttpUtil shareHttpUtil] GET:[requestURL stringByAppendingString:@"recommend/index"] parameters:@{ @"page":[NSString stringWithFormat:@"%zd",page] , @"pagesize":[NSString stringWithFormat:@"%zd",PAGESIZE] } success:^(id responseObject) {
        

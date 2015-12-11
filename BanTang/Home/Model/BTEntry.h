@@ -18,4 +18,6 @@
 
 @property (nonatomic, copy) NSString *pic1;
 
+@property (nonatomic, copy) NSString *extend_id;
+
 @end

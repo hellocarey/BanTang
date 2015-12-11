@@ -15,7 +15,7 @@
 
 @implementation BTNavigationViewController
 
-+(void)initialize{
++ (void)initialize{
     
     UINavigationBar *navigationBar = [UINavigationBar appearance];
     
@@ -25,14 +25,18 @@
     
 }
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
+    
+    if( self.viewControllers.count > 0){
+    
+        viewController.hidesBottomBarWhenPushed = YES;
+        
+        //viewController.navigationItem.leftBarButtonItem = [UIBarButtonItem alloc]initWithImage:[] style:<#(UIBarButtonItemStyle)#> target:<#(nullable id)#> action:<#(nullable SEL)#>]
+        
+    }
+    
+    [super pushViewController:viewController animated:animated];
+    
 }
 
 

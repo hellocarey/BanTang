@@ -15,10 +15,22 @@
 @implementation BTMyViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self setupDataSource];
+
 }
 
+- (void)setupDataSource{
+    
+    [[BTHttpUtil shareHttpUtil] POST:userInfoRequestUrl parameters:nil success:^(id responseObject) {
+        
+    } failure:^(id responseObject) {
+        
+    }];
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

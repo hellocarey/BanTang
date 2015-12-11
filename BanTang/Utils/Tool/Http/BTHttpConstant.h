@@ -15,3 +15,8 @@
 #define getTopicByIdUrl [requestURL stringByAppendingString:@"topic/newInfo"]
 
 #define goodRequestUrl [requestURL stringByAppendingString:@"community/post/editorRec"]
+
+#define loginRequestUrl [requestURL stringByAppendingString:@"user/login"]
+
+#define userInfoRequestUrl [requestURL stringByAppendingString:@"users/likes/userInfo"]
+

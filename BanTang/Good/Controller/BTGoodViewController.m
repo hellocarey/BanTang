@@ -10,6 +10,7 @@
 #import "BTGoodBanner.h"
 #import "BTEntry.h"
 #import "BTGoodViewCell.h"
+#import "BTViewWebController.h"
 
 @interface BTGoodViewController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -78,6 +79,16 @@
        BTGoodBanner *goodBanner = [tableView dequeueReusableCellWithIdentifier:@"goodBanner"];
         
        goodBanner.bannerArray = _entryArray;
+        
+        goodBanner.clickIndex = ^(NSString *extend){
+          
+            if([extend containsString:@"http"]){
+                
+                [self.navigationController pushViewController:[[BTViewWebController alloc] initWithHttpStr:extend withTitle:@"本期话题"] animated:YES];
+                
+            }
+            
+        };
         
        return  goodBanner;
         
