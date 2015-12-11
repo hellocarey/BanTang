@@ -29,9 +29,11 @@
     
     if( self.viewControllers.count > 0){
     
+        viewController.view.backgroundColor = [UIColor whiteColor];
+        
         viewController.hidesBottomBarWhenPushed = YES;
         
-        //viewController.navigationItem.leftBarButtonItem = [UIBarButtonItem alloc]initWithImage:[] style:<#(UIBarButtonItemStyle)#> target:<#(nullable id)#> action:<#(nullable SEL)#>]
+        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[[UIImage imageNamed:@"back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStyleDone target:self action:@selector(popViewControllerAnimated:)];
         
     }
     

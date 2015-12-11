@@ -9,6 +9,12 @@
 #import "BTTabbar.h"
 #import "BTLoginController.h"
 
+@interface BTTabbar()
+
+@property(nonatomic,strong)NSArray *tabArray;
+
+@end
+
 @implementation BTTabbar
 
 
@@ -59,14 +65,15 @@
  */
 -(void)layoutSubviews{
     
-    NSArray *subItems = self.subviews;
- 
+
+    NSArray *subItems = self.tabArray;
+
     CGFloat width = screenW / 5.0;
     
     for (int i = 0; i< subItems.count; i++) {
         
         UIView *subItem = subItems[i];
-        
+
         if([subItem class]==[UIButton class]){
         
             subItem.frame = CGRectMake(width * 2.0, 0, width , tarBarButtom);
@@ -82,6 +89,17 @@
     
 }
 
+#pragma mark -lazy loading
 
+-(NSArray *)tabArray{
+    
+    if(!_tabArray){
+        
+        _tabArray = self.subviews;
+        
+    }
+    
+    return _tabArray;
+}
 
 @end

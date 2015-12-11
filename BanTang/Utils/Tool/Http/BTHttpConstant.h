@@ -20,3 +20,5 @@
 
 #define userInfoRequestUrl [requestURL stringByAppendingString:@"users/likes/userInfo"]
 
+#define subjectInfoRequestUrl [requestURL stringByAppendingString:@"community/subject/info"] 
+//http://open3.bantangapp.com/	200	POST	open3.bantangapp.com	/community/subject/info	Fri Dec 11 21:47:27 CST 2015	896	6365	Complete

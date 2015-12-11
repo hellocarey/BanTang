@@ -43,7 +43,7 @@
     
     [self setNeedsLayout];
     
-    return CGRectGetMaxX(self.picImg.frame)+(screenW - self.picImg.width)+30;
+    return CGRectGetMaxY(self.picImg.frame)+(screenW - self.picImg.width);
     
 }
 

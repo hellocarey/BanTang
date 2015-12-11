@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @class BTDynamic,BTUser,BTProduct,BTTag,BTPic;
+
 @interface BTGood : NSObject
 
 @property (nonatomic, copy) NSString *id;

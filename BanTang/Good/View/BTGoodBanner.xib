@@ -81,17 +81,17 @@
                         <exclude reference="beu-rh-mdf"/>
                         <exclude reference="cCr-ta-6Du"/>
                         <exclude reference="wSo-H9-rQ1"/>
+                        <exclude reference="Sgo-9M-Syd"/>
+                        <exclude reference="m4W-8v-StI"/>
+                        <exclude reference="mUO-eM-rU9"/>
+                        <exclude reference="puk-wu-gvd"/>
+                        <exclude reference="uZZ-wu-qpJ"/>
                         <exclude reference="BlF-fe-SMo"/>
                         <exclude reference="fne-ic-6BQ"/>
                         <exclude reference="yjX-t9-Mu6"/>
                         <exclude reference="EC5-C3-wPd"/>
                         <exclude reference="HcY-dj-QjP"/>
                         <exclude reference="lti-tC-GT0"/>
-                        <exclude reference="Sgo-9M-Syd"/>
-                        <exclude reference="m4W-8v-StI"/>
-                        <exclude reference="mUO-eM-rU9"/>
-                        <exclude reference="puk-wu-gvd"/>
-                        <exclude reference="uZZ-wu-qpJ"/>
                     </mask>
                 </variation>
                 <variation key="heightClass=regular-widthClass=compact">
@@ -105,17 +105,17 @@
                         <include reference="beu-rh-mdf"/>
                         <include reference="cCr-ta-6Du"/>
                         <include reference="wSo-H9-rQ1"/>
+                        <include reference="Sgo-9M-Syd"/>
+                        <include reference="m4W-8v-StI"/>
+                        <include reference="mUO-eM-rU9"/>
+                        <include reference="puk-wu-gvd"/>
+                        <include reference="uZZ-wu-qpJ"/>
                         <include reference="BlF-fe-SMo"/>
                         <include reference="fne-ic-6BQ"/>
                         <include reference="yjX-t9-Mu6"/>
                         <include reference="EC5-C3-wPd"/>
                         <include reference="HcY-dj-QjP"/>
                         <include reference="lti-tC-GT0"/>
-                        <include reference="Sgo-9M-Syd"/>
-                        <include reference="m4W-8v-StI"/>
-                        <include reference="mUO-eM-rU9"/>
-                        <include reference="puk-wu-gvd"/>
-                        <include reference="uZZ-wu-qpJ"/>
                     </mask>
                 </variation>
             </tableViewCellContentView>

@@ -41,8 +41,6 @@
     
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor whiteColor];
-    
     [[BTHUDProgress shareHUD] showHUD:self.view];
     
     [self setUpDatasource:_currentPage];
