@@ -21,6 +21,20 @@
 		CE70344D1C1AFCDF00C9A21D /* BTObjectContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE70344B1C1AFCDF00C9A21D /* BTObjectContentCell.m */; };
 		CE70344E1C1AFCDF00C9A21D /* BTObjectContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE70344C1C1AFCDF00C9A21D /* BTObjectContentCell.xib */; };
 		CE7034511C1B03D400C9A21D /* BTObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7034501C1B03D400C9A21D /* BTObject.m */; };
+		CE8B7B3E1C1EE2510075325C /* BTMJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8B7B3D1C1EE2510075325C /* BTMJExtension.m */; };
+		CE8B7B411C1EE58A0075325C /* UIImageView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8B7B401C1EE58A0075325C /* UIImageView+Extension.m */; };
+		CE8B7B441C1F36D60075325C /* BTSingleProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8B7B431C1F36D60075325C /* BTSingleProductListViewController.m */; };
+		CE8B7B481C1F3B0A0075325C /* BTSingleViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8B7B461C1F3B0A0075325C /* BTSingleViewCell.m */; };
+		CE8B7B491C1F3B0A0075325C /* BTSingleViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8B7B471C1F3B0A0075325C /* BTSingleViewCell.xib */; };
+		CEB4A6031C1DAAEE00EB57F5 /* BTSearchProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB4A6021C1DAAEE00EB57F5 /* BTSearchProductViewController.m */; };
+		CEB4A6061C1DAB3B00EB57F5 /* BTSingleProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB4A6051C1DAB3B00EB57F5 /* BTSingleProductViewController.m */; };
+		CEB4A6091C1DAB5400EB57F5 /* BTProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB4A6081C1DAB5400EB57F5 /* BTProductListViewController.m */; };
+		CEB4A6191C1DE07300EB57F5 /* BTSceneViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB4A6171C1DE07300EB57F5 /* BTSceneViewCell.m */; };
+		CEB4A61A1C1DE07300EB57F5 /* BTSceneViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB4A6181C1DE07300EB57F5 /* BTSceneViewCell.xib */; };
+		CEB4A61D1C1E6CC600EB57F5 /* BTSubProductView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB4A61C1C1E6CC600EB57F5 /* BTSubProductView.m */; };
+		CEB4A6211C1E6D9100EB57F5 /* BTSubTagViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB4A61F1C1E6D9100EB57F5 /* BTSubTagViewCell.m */; };
+		CEB4A6221C1E6D9100EB57F5 /* BTSubTagViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB4A6201C1E6D9100EB57F5 /* BTSubTagViewCell.xib */; };
+		CEB4A6251C1E9C0F00EB57F5 /* BTTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB4A6241C1E9C0F00EB57F5 /* BTTopicViewController.m */; };
 		CEBEB90E1C197663009863F7 /* BTTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBEB90D1C197663009863F7 /* BTTabbar.m */; };
 		CECCDD3A1C0EF19D00A4FA6B /* BTGoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD391C0EF19D00A4FA6B /* BTGoodViewController.m */; };
 		CECCDD3D1C0EF1AE00A4FA6B /* BTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD3C1C0EF1AE00A4FA6B /* BTHomeViewController.m */; };
@@ -104,6 +118,31 @@
 		CE70344C1C1AFCDF00C9A21D /* BTObjectContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTObjectContentCell.xib; sourceTree = "<group>"; };
 		CE70344F1C1B03D400C9A21D /* BTObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTObject.h; sourceTree = "<group>"; };
 		CE7034501C1B03D400C9A21D /* BTObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTObject.m; sourceTree = "<group>"; };
+		CE8B7B3C1C1EE2510075325C /* BTMJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMJExtension.h; sourceTree = "<group>"; };
+		CE8B7B3D1C1EE2510075325C /* BTMJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMJExtension.m; sourceTree = "<group>"; };
+		CE8B7B3F1C1EE58A0075325C /* UIImageView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extension.h"; sourceTree = "<group>"; };
+		CE8B7B401C1EE58A0075325C /* UIImageView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extension.m"; sourceTree = "<group>"; };
+		CE8B7B421C1F36D60075325C /* BTSingleProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSingleProductListViewController.h; sourceTree = "<group>"; };
+		CE8B7B431C1F36D60075325C /* BTSingleProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSingleProductListViewController.m; sourceTree = "<group>"; };
+		CE8B7B451C1F3B0A0075325C /* BTSingleViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSingleViewCell.h; sourceTree = "<group>"; };
+		CE8B7B461C1F3B0A0075325C /* BTSingleViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSingleViewCell.m; sourceTree = "<group>"; };
+		CE8B7B471C1F3B0A0075325C /* BTSingleViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTSingleViewCell.xib; sourceTree = "<group>"; };
+		CEB4A6011C1DAAEE00EB57F5 /* BTSearchProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSearchProductViewController.h; sourceTree = "<group>"; };
+		CEB4A6021C1DAAEE00EB57F5 /* BTSearchProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSearchProductViewController.m; sourceTree = "<group>"; };
+		CEB4A6041C1DAB3B00EB57F5 /* BTSingleProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSingleProductViewController.h; sourceTree = "<group>"; };
+		CEB4A6051C1DAB3B00EB57F5 /* BTSingleProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSingleProductViewController.m; sourceTree = "<group>"; };
+		CEB4A6071C1DAB5400EB57F5 /* BTProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTProductListViewController.h; sourceTree = "<group>"; };
+		CEB4A6081C1DAB5400EB57F5 /* BTProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTProductListViewController.m; sourceTree = "<group>"; };
+		CEB4A6161C1DE07300EB57F5 /* BTSceneViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSceneViewCell.h; sourceTree = "<group>"; };
+		CEB4A6171C1DE07300EB57F5 /* BTSceneViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSceneViewCell.m; sourceTree = "<group>"; };
+		CEB4A6181C1DE07300EB57F5 /* BTSceneViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTSceneViewCell.xib; sourceTree = "<group>"; };
+		CEB4A61B1C1E6CC600EB57F5 /* BTSubProductView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSubProductView.h; sourceTree = "<group>"; };
+		CEB4A61C1C1E6CC600EB57F5 /* BTSubProductView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSubProductView.m; sourceTree = "<group>"; };
+		CEB4A61E1C1E6D9100EB57F5 /* BTSubTagViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSubTagViewCell.h; sourceTree = "<group>"; };
+		CEB4A61F1C1E6D9100EB57F5 /* BTSubTagViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSubTagViewCell.m; sourceTree = "<group>"; };
+		CEB4A6201C1E6D9100EB57F5 /* BTSubTagViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTSubTagViewCell.xib; sourceTree = "<group>"; };
+		CEB4A6231C1E9C0F00EB57F5 /* BTTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTopicViewController.h; sourceTree = "<group>"; };
+		CEB4A6241C1E9C0F00EB57F5 /* BTTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTopicViewController.m; sourceTree = "<group>"; };
 		CEBEB90C1C197663009863F7 /* BTTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTabbar.h; sourceTree = "<group>"; };
 		CEBEB90D1C197663009863F7 /* BTTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTabbar.m; sourceTree = "<group>"; };
 		CECCDD381C0EF19D00A4FA6B /* BTGoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTGoodViewController.h; sourceTree = "<group>"; };
@@ -333,11 +372,16 @@
 		CE2305DC1C0ED932003AA80C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CEB4A6001C1DAAEE00EB57F5 /* Search */,
 				CECCDD3B1C0EF1AE00A4FA6B /* BTHomeViewController.h */,
 				CECCDD3C1C0EF1AE00A4FA6B /* BTHomeViewController.m */,
 				CE0BFC231C1275D100CAB293 /* BTTopicDetailViewController.h */,
 				CE0BFC241C1275D100CAB293 /* BTTopicDetailViewController.m */,
 				CE0BFC251C1275D100CAB293 /* BTTopicDetailViewController.xib */,
+				CEB4A6231C1E9C0F00EB57F5 /* BTTopicViewController.h */,
+				CEB4A6241C1E9C0F00EB57F5 /* BTTopicViewController.m */,
+				CE8B7B421C1F36D60075325C /* BTSingleProductListViewController.h */,
+				CE8B7B431C1F36D60075325C /* BTSingleProductListViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -358,6 +402,7 @@
 		CE2305DE1C0ED932003AA80C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CEB4A60A1C1DCC6300EB57F5 /* Search */,
 				CECCDDB31C107CB800A4FA6B /* BTTopicViewCell.h */,
 				CECCDDB41C107CB800A4FA6B /* BTTopicViewCell.m */,
 				CECCDDB51C107CB800A4FA6B /* BTTopicViewCell.xib */,
@@ -457,6 +502,8 @@
 				CEF60E541C196BC200255802 /* UIImage+Image.m */,
 				CECCDDBC1C1095EA00A4FA6B /* UIView+Extension.h */,
 				CECCDDBD1C1095EA00A4FA6B /* UIView+Extension.m */,
+				CE8B7B3F1C1EE58A0075325C /* UIImageView+Extension.h */,
+				CE8B7B401C1EE58A0075325C /* UIImageView+Extension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -467,6 +514,8 @@
 				CECCDD4A1C10431A00A4FA6B /* Http */,
 				CEF60E501C195F1E00255802 /* BTHUDProgress.h */,
 				CEF60E511C195F1E00255802 /* BTHUDProgress.m */,
+				CE8B7B3C1C1EE2510075325C /* BTMJExtension.h */,
+				CE8B7B3D1C1EE2510075325C /* BTMJExtension.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -518,6 +567,37 @@
 				CE70344C1C1AFCDF00C9A21D /* BTObjectContentCell.xib */,
 			);
 			path = Subject;
+			sourceTree = "<group>";
+		};
+		CEB4A6001C1DAAEE00EB57F5 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4A6011C1DAAEE00EB57F5 /* BTSearchProductViewController.h */,
+				CEB4A6021C1DAAEE00EB57F5 /* BTSearchProductViewController.m */,
+				CEB4A6041C1DAB3B00EB57F5 /* BTSingleProductViewController.h */,
+				CEB4A6051C1DAB3B00EB57F5 /* BTSingleProductViewController.m */,
+				CEB4A6071C1DAB5400EB57F5 /* BTProductListViewController.h */,
+				CEB4A6081C1DAB5400EB57F5 /* BTProductListViewController.m */,
+				CEB4A61B1C1E6CC600EB57F5 /* BTSubProductView.h */,
+				CEB4A61C1C1E6CC600EB57F5 /* BTSubProductView.m */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		CEB4A60A1C1DCC6300EB57F5 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4A6161C1DE07300EB57F5 /* BTSceneViewCell.h */,
+				CEB4A6171C1DE07300EB57F5 /* BTSceneViewCell.m */,
+				CEB4A6181C1DE07300EB57F5 /* BTSceneViewCell.xib */,
+				CEB4A61E1C1E6D9100EB57F5 /* BTSubTagViewCell.h */,
+				CEB4A61F1C1E6D9100EB57F5 /* BTSubTagViewCell.m */,
+				CEB4A6201C1E6D9100EB57F5 /* BTSubTagViewCell.xib */,
+				CE8B7B451C1F3B0A0075325C /* BTSingleViewCell.h */,
+				CE8B7B461C1F3B0A0075325C /* BTSingleViewCell.m */,
+				CE8B7B471C1F3B0A0075325C /* BTSingleViewCell.xib */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 		CEBEB9121C199FEC009863F7 /* Model */ = {
@@ -705,9 +785,12 @@
 				CE70344E1C1AFCDF00C9A21D /* BTObjectContentCell.xib in Resources */,
 				CEFF26D11C19FAA100700A51 /* BTGoodBanner.xib in Resources */,
 				CEFF26D61C1A5C4200700A51 /* BTLoginController.xib in Resources */,
+				CEB4A61A1C1DE07300EB57F5 /* BTSceneViewCell.xib in Resources */,
+				CEB4A6221C1E6D9100EB57F5 /* BTSubTagViewCell.xib in Resources */,
 				CE4AD9071C19E9750039EDF0 /* BTGoodViewCell.xib in Resources */,
 				CECCDDB71C107CB800A4FA6B /* BTTopicViewCell.xib in Resources */,
 				CECCDD581C1047B500A4FA6B /* Launch Screen.storyboard in Resources */,
+				CE8B7B491C1F3B0A0075325C /* BTSingleViewCell.xib in Resources */,
 				CE2305B11C0ED7F3003AA80C /* Assets.xcassets in Resources */,
 				CE0BFC271C1275D100CAB293 /* BTTopicDetailViewController.xib in Resources */,
 				CECCDD5F1C10496A00A4FA6B /* Info.plist in Resources */,
@@ -788,12 +871,16 @@
 				CEFF26D51C1A5C4200700A51 /* BTLoginController.m in Sources */,
 				CEF60E521C195F1E00255802 /* BTHUDProgress.m in Sources */,
 				CEF60E551C196BC200255802 /* UIImage+Image.m in Sources */,
+				CEB4A6251C1E9C0F00EB57F5 /* BTTopicViewController.m in Sources */,
+				CE8B7B481C1F3B0A0075325C /* BTSingleViewCell.m in Sources */,
 				CECCDDB61C107CB800A4FA6B /* BTTopicViewCell.m in Sources */,
 				CEFF26B91C19F22A00700A51 /* BTTag.m in Sources */,
 				CECCDD5B1C1048C900A4FA6B /* BTMyViewController.m in Sources */,
 				CECCDD691C106CD000A4FA6B /* BTEntry.m in Sources */,
+				CE8B7B441C1F36D60075325C /* BTSingleProductListViewController.m in Sources */,
 				CEFF26BF1C19F2D500700A51 /* BTDynamic.m in Sources */,
 				CEFF26C51C19F82000700A51 /* BTAttentionBtn.m in Sources */,
+				CEB4A6191C1DE07300EB57F5 /* BTSceneViewCell.m in Sources */,
 				CE70344D1C1AFCDF00C9A21D /* BTObjectContentCell.m in Sources */,
 				CE0BFC261C1275D100CAB293 /* BTTopicDetailViewController.m in Sources */,
 				CEFF26BC1C19F29000700A51 /* BTProduct.m in Sources */,
@@ -801,23 +888,30 @@
 				CECCDD3D1C0EF1AE00A4FA6B /* BTHomeViewController.m in Sources */,
 				CEFF26C81C19F92200700A51 /* BTCircleImg.m in Sources */,
 				CECCDD3A1C0EF19D00A4FA6B /* BTGoodViewController.m in Sources */,
+				CE8B7B3E1C1EE2510075325C /* BTMJExtension.m in Sources */,
 				CEF60E641C1975FE00255802 /* BTTabBarController.m in Sources */,
 				CEF60E621C1975FE00255802 /* BTHomeNavigationViewController.m in Sources */,
 				CEF60E4F1C195DAE00255802 /* BTHttpRusult.m in Sources */,
 				CEFF26B31C19F1B900700A51 /* BTUser.m in Sources */,
 				CE4AD9061C19E9750039EDF0 /* BTGoodViewCell.m in Sources */,
 				CEBEB90E1C197663009863F7 /* BTTabbar.m in Sources */,
+				CEB4A61D1C1E6CC600EB57F5 /* BTSubProductView.m in Sources */,
+				CEB4A6091C1DAB5400EB57F5 /* BTProductListViewController.m in Sources */,
+				CEB4A6061C1DAB3B00EB57F5 /* BTSingleProductViewController.m in Sources */,
 				CECCDD661C106BC600A4FA6B /* BTBanner.m in Sources */,
 				CECCDD4D1C10431A00A4FA6B /* BTHttpUtil.m in Sources */,
 				CE7034511C1B03D400C9A21D /* BTObject.m in Sources */,
 				CE2305A61C0ED7F3003AA80C /* main.m in Sources */,
+				CE8B7B411C1EE58A0075325C /* UIImageView+Extension.m in Sources */,
 				CECCDD631C106B3400A4FA6B /* BTTopic.m in Sources */,
 				CECCDD401C0EF1BD00A4FA6B /* BTMessageViewController.m in Sources */,
+				CEB4A6031C1DAAEE00EB57F5 /* BTSearchProductViewController.m in Sources */,
 				CEF60E611C1975FE00255802 /* AppDelegate.m in Sources */,
 				CECCDDBE1C1095EA00A4FA6B /* UIView+Extension.m in Sources */,
 				CEFF26B61C19F20700700A51 /* BTPic.m in Sources */,
 				CE7034441C1AF58C00C9A21D /* BTSubjectViewController.m in Sources */,
 				CECCDDBB1C10921400A4FA6B /* BTEntryView.m in Sources */,
+				CEB4A6211C1E6D9100EB57F5 /* BTSubTagViewCell.m in Sources */,
 				CEFF26D01C19FAA100700A51 /* BTGoodBanner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

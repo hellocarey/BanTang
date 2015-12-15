@@ -25,7 +25,7 @@
     
     _topic = topic;
     
-    [self.topicImg sd_setImageWithURL:[NSURL URLWithString:topic.pic]];
+    [self.topicImg setNetImg:topic.pic];
     
     self.title.text = topic.title;
     

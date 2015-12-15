@@ -10,19 +10,24 @@
 
 @interface UIView (Extension)
 
-@property (nonatomic, assign) CGFloat x;
+@property CGPoint origin;
+@property CGSize size;
 
-@property (nonatomic, assign) CGFloat y;
+@property (readonly) CGPoint bottomLeft;
+@property (readonly) CGPoint bottomRight;
+@property (readonly) CGPoint topRight;
 
-@property (nonatomic, assign) CGFloat width;
+@property CGFloat height;
+@property CGFloat width;
 
-@property (nonatomic, assign) CGFloat height;
+@property CGFloat top;
+@property CGFloat left;
 
-@property (nonatomic, assign) CGFloat centerX;
+@property CGFloat bottom;
+@property CGFloat right;
 
-@property (nonatomic, assign) CGFloat centerY;
-
-/** 从xib中创建一个控件 */
-+ (instancetype)viewFromXib;
+- (void) moveBy: (CGPoint) delta;
+- (void) scaleBy: (CGFloat) scaleFactor;
+- (void) fitInSize: (CGSize) aSize;
 
 @end

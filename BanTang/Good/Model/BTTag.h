@@ -10,8 +10,14 @@
 
 @interface BTTag : NSObject
 
-@property (nonatomic, copy) NSString *id;
+@property (nonatomic, copy) NSString *ID;
 
 @property (nonatomic, copy) NSString *name;
+
+@property (nonatomic, copy) NSString *en_name;
+
+@property (nonatomic, copy) NSString *icon;
+
+@property (nonatomic, copy) NSMutableArray *subclass;
 
 @end

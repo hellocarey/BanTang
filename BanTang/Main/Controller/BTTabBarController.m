@@ -5,7 +5,7 @@
 //  Created by User on 15/12/2.
 //  Copyright © 2015年 LJ. All rights reserved.
 //
-
+#import "BTSearchProductViewController.h"
 #import "BTMyViewController.h"
 #import "BTTabBarController.h"
 #import "BTHomeViewController.h"
@@ -37,7 +37,7 @@
     
     [self addChildViewController:[[BTGoodViewController alloc] init]  imageName:@"hot" selectImageName:@"hot-focus"];
     
-    [self addChildViewController:[[BTMyViewController alloc] init]  imageName:@"user" selectImageName:@"user-focus"];
+    [self addChildViewController:[[BTMyViewController alloc] init]  imageName:@"sound" selectImageName:@"sound_focus"];
     
     [self addChildViewController:[[BTMyViewController alloc] init]  imageName:@"user" selectImageName:@"user-focus"];
     

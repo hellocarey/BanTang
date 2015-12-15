@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+
 @interface BTHttpRusult : NSObject
 
 @property (nonatomic, assign) NSInteger status;

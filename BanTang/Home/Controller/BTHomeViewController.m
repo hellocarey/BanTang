@@ -14,6 +14,8 @@
 #import "BTBanner.h"
 #import "BTTopicViewCell.h"
 #import "BTEntryView.h"
+#import "BTSearchProductViewController.h"
+#import "UIImage+Image.h"
 
 @interface BTHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -43,16 +45,51 @@
     
     [[BTHUDProgress shareHUD] showHUD:self.view];
     
-    [self setUpDatasource:_currentPage];
+    [self setUpDatasource];
     
-    self.automaticallyAdjustsScrollViewInsets = false;
+    self.automaticallyAdjustsScrollViewInsets = NO;
     
 }
 
+- (void)viewWillAppear:(BOOL)animated{
+    
+    [super viewWillAppear:animated];
+    
+    self.navigationController.navigationBar.hidden = YES;
 
-- (void)setUpDatasource:(NSInteger)page {
+}
+
+#pragma mark - init headView
+
+- (void)setupHeadView{
+    
+    UIButton *leftBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    
+    leftBtn.alpha = 0.6;
+    
+    [leftBtn setBackgroundImage:[UIImage imageNamed:@"search"] forState:UIControlStateNormal];
+    
+    leftBtn.frame = CGRectMake(10, 20, 30, 30);
+    
+    [leftBtn addTarget:self action:@selector(turnToHomeSearcgPage) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:leftBtn];
+    
+    UIButton *rightBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    
+    rightBtn.alpha = 0.6;
+    
+    rightBtn.frame = CGRectMake(screenW - 40, 20, 30, 30);
+    
+    [rightBtn setBackgroundImage:[UIImage imageNamed:@"date"] forState:UIControlStateNormal];
+
+    [self.view addSubview:rightBtn];
+    
+}
+
+- (void)setUpDatasource{
    
-    [[BTHttpUtil shareHttpUtil] GET:[requestURL stringByAppendingString:@"recommend/index"] parameters:@{ @"page":[NSString stringWithFormat:@"%zd",page] , @"pagesize":[NSString stringWithFormat:@"%zd",PAGESIZE] } success:^(id responseObject) {
+    [[BTHttpUtil shareHttpUtil] GET:[requestURL stringByAppendingString:@"recommend/index"] parameters:@{ @"page":[NSString stringWithFormat:@"%zd",_currentPage] , @"pagesize":[NSString stringWithFormat:@"%zd",PAGESIZE] } success:^(id responseObject) {
        
         NSMutableArray *topDic = [BTTopic mj_objectArrayWithKeyValuesArray:responseObject[@"topic"]];
         
@@ -88,7 +125,8 @@
     }];
     
 }
-#pragma mark - table delegate
+
+#pragma mark - table datasource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
     return self.topicArray.count + 2;
@@ -141,6 +179,8 @@
     
 }
 
+#pragma mark - table delegate
+
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     if(indexPath.row == 0){
@@ -161,7 +201,27 @@
     
     BTTopic *topic = self.topicArray[indexPath.row-2];
     
-    NSLog(@"---%zd",topic.id);
+    NSLog(@"---%zd",topic.ID);
+    
+}
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
+//
+//    if(scrollView.contentOffset.y>100){
+////        [UIView beginAnimations:<#(nullable NSString *)#> context:<#(nullable void *)#>]
+//        [UIView commitAnimations];
+//        
+//        [self.navigationController.navigationBar setBackgroundImage:[UIImage imageWithColor:systemRed] forBarMetrics:UIBarMetricsDefault];
+//        
+//        [self.navigationController.navigationBar setShadowImage:[UIImage imageWithColor:systemRed]];
+//        
+//    }else{
+//        
+//        [self.navigationController.navigationBar setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
+//        
+//        [self.navigationController.navigationBar setShadowImage:[[UIImage alloc] init]];
+//        
+//    }
     
 }
 
@@ -196,6 +256,7 @@
             [_bannerImageArray addObject:banner.photo];
             
         }
+        
     }
     
 }
@@ -220,6 +281,7 @@
             [_entryImageArray addObject:entry.pic1];
             
         }
+        
     }
 }
 
@@ -237,13 +299,11 @@
         
         _topicTableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
             
-            [_topicArray removeAllObjects];
-            
             _isUp = true;
             
             _currentPage = 0;
             
-            [self setUpDatasource:_currentPage];
+            [self setUpDatasource];
             
         }];
         
@@ -253,15 +313,27 @@
             
             _currentPage ++;
             
-            [self setUpDatasource:_currentPage];
+            [self setUpDatasource];
             
         }];
 
         [self.view addSubview:_topicTableView];
         
+        [self setupHeadView];
+        
     }
     
     return _topicTableView;
+}
+
+#pragma mark - click event
+
+-  (void)turnToHomeSearcgPage{
+    
+    BTSearchProductViewController *searchView = [[BTSearchProductViewController alloc] init];
+    
+    [self.navigationController pushViewController:searchView animated:YES];
+    
 }
 
 @end

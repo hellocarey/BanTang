@@ -13,10 +13,6 @@
 
 @implementation BTGood
 
-
-+ (NSDictionary *)objectClassInArray{
-    return @{@"product" : [BTProduct class], @"tags" : [BTTag class], @"pics" : [BTPic class]};
-}
 @end
 
 

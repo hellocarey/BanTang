@@ -28,13 +28,13 @@
     
     _good = good;
     
-    [_userImg sd_setImageWithURL:[NSURL URLWithString:good.author.avatar]];
+    [_userImg setHeader:good.author.avatar];
     
     _username.text = good.author.username;
     
     _createtime.text = good.datestr;
     
-    [_picImg sd_setImageWithURL:[NSURL URLWithString:((BTPic *)good.pics[0]).url]];
+    [_picImg setNetImg:((BTPic *)good.pics[0]).url];
     
     
 }

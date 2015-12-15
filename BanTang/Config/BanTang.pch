@@ -14,6 +14,8 @@
 #import <MJRefresh/MJRefresh.h>
 //uiview分类
 #import "UIView+Extension.h"
+//对图片分类
+#import "UIImageView+Extension.h"
 
 #pragma mark -对第三方库进行包装
 //http请求类
@@ -36,3 +38,9 @@
 #define PAGESIZE 20
 //系统的主红色
 #define systemRed [UIColor colorWithRed:229/255.0 green:57/255.0 blue:65/255.0 alpha:1.0]
+//系统深黑色
+#define systemGray [UIColor colorWithRed:119/255.0 green:119/255.0 blue:119/255.0 alpha:1.0]
+//系统暗黑色
+#define systemDrakGray [UIColor colorWithRed:194/255.0 green:194/255.0 blue:194/255.0 alpha:1.0]
+//弱引用
+#define BTWeakSelf __weak typeof(self) weakSelf = self;

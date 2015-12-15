@@ -10,12 +10,6 @@
 
 @implementation BTObject
 
-+ (NSDictionary *)mj_replacedKeyFromPropertyName{
-    
-    return @{@"descriptionStr":@"description"};
-    
-}
-
 @end
 
 

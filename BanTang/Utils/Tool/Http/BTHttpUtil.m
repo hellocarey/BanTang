@@ -39,6 +39,7 @@
         
     }];
     
+    
 }
 
 - (void) GET:(NSString *)url parameters:(id)parameters success:(SuccessBlock) success failure:(FailureBlock)failure{
@@ -56,6 +57,7 @@
     }];
     
 }
+
 
 #pragma mark -添加参数 (静态数据，后期进行修改)
 + (NSDictionary *)addParameters:(NSDictionary *)dic{

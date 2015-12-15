@@ -12,6 +12,8 @@
 
 #define homeRequestUrl [requestURL stringByAppendingString:@"recommend/index"]
 
+#define sceneRequestUrl [requestURL stringByAppendingString:@"category/scene"]
+
 #define getTopicByIdUrl [requestURL stringByAppendingString:@"topic/newInfo"]
 
 #define goodRequestUrl [requestURL stringByAppendingString:@"community/post/editorRec"]
@@ -20,5 +22,10 @@
 
 #define userInfoRequestUrl [requestURL stringByAppendingString:@"users/likes/userInfo"]
 
-#define subjectInfoRequestUrl [requestURL stringByAppendingString:@"community/subject/info"] 
-//http://open3.bantangapp.com/	200	POST	open3.bantangapp.com	/community/subject/info	Fri Dec 11 21:47:27 CST 2015	896	6365	Complete
+#define subjectInfoRequestUrl [requestURL stringByAppendingString:@"community/subject/info"]
+
+#define categoryListRequestUrl [requestURL stringByAppendingString:@"category/list"]
+
+#define topListRequestBySceneId [requestURL stringByAppendingString:@"topic/list"] 
+
+#define productListRequest [requestURL stringByAppendingString:@"product/productList"] 

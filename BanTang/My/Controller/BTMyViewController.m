@@ -18,8 +18,15 @@
     
     [super viewDidLoad];
     
+    //self.navigationController.navigationBar.hidden = YES;
+    
     [self setupDataSource];
 
+}
+
+-(void)viewWillDisappear:(BOOL)animated{
+    
+    //self.navigationController.navigationBar.hidden = NO;
 }
 
 - (void)setupDataSource{

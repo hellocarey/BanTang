@@ -10,6 +10,7 @@
 
 @implementation BTHttpRusult
 
+
 @end
 
 

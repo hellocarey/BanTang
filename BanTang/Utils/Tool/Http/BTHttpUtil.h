@@ -18,7 +18,9 @@ typedef void (^FailureBlock)(id responseObject);
 
 - (void) POST:(NSString *)url parameters:(id)parameters success:(SuccessBlock) success failure:(FailureBlock)failure;
 
-- (void) GET:(NSString *)url parameters:(id)parameters success:(SuccessBlock) success failure:(FailureBlock)failure;
+- (void) GET:(NSString *)url parameters:(id)parameters success:(SuccessBlock) success failure:(FailureBlock)failure ;
+
+
 
 
 
