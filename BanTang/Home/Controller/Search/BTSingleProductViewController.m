@@ -203,7 +203,7 @@
             
             singleProduct.navigationTitle = tags.name;
             
-            [self.navigationController pushViewController:singleProduct animated:YES];
+            [weakSelf.navigationController pushViewController:singleProduct animated:YES];
             
         };
         

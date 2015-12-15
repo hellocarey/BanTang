@@ -108,23 +108,21 @@
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    BTTopic *topic = self.topicArray[indexPath.row-2];
-    
-    NSLog(@"---%zd",topic.ID);
+   //BTTopic *topic = self.topicArray[indexPath.section];
     
 }
 
 #pragma mark - lazy loading
-- (NSMutableArray *)topicArray{
-    
-    if(!_topicArray){
-        
-        _topicArray = [NSMutableArray array];
-        
-    }
-    
-    return _topicArray;
-}
+//- (NSMutableArray *)topicArray{
+//    
+//    if(!_topicArray){
+//        
+//        _topicArray = [NSMutableArray array];
+//        
+//    }
+//    
+//    return _topicArray;
+//}
 
 
 

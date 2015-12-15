@@ -38,6 +38,6 @@
 @property (nonatomic, copy) NSString *desc;
 
 /**单品发布者*/
-@property (nonatomic, copy) BTUser *user;
+//@property (nonatomic, copy) BTUser *user;
 
 @end
