@@ -7,65 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE0BFC261C1275D100CAB293 /* BTTopicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0BFC241C1275D100CAB293 /* BTTopicDetailViewController.m */; };
-		CE0BFC271C1275D100CAB293 /* BTTopicDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0BFC251C1275D100CAB293 /* BTTopicDetailViewController.xib */; };
-		CE2305A61C0ED7F3003AA80C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2305A51C0ED7F3003AA80C /* main.m */; };
 		CE2305B11C0ED7F3003AA80C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2305B01C0ED7F3003AA80C /* Assets.xcassets */; };
 		CE2305BF1C0ED7F3003AA80C /* BanTangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2305BE1C0ED7F3003AA80C /* BanTangTests.m */; };
 		CE2305CA1C0ED7F3003AA80C /* BanTangUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2305C91C0ED7F3003AA80C /* BanTangUITests.m */; };
-		CE4AD9061C19E9750039EDF0 /* BTGoodViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4AD9041C19E9750039EDF0 /* BTGoodViewCell.m */; };
-		CE4AD9071C19E9750039EDF0 /* BTGoodViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4AD9051C19E9750039EDF0 /* BTGoodViewCell.xib */; };
-		CE4AD90C1C19ED0E0039EDF0 /* BTGood.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4AD90B1C19ED0E0039EDF0 /* BTGood.m */; };
-		CE7034401C1AD06A00C9A21D /* BTViewWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE70343F1C1AD06A00C9A21D /* BTViewWebController.m */; };
-		CE7034441C1AF58C00C9A21D /* BTSubjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7034421C1AF58C00C9A21D /* BTSubjectViewController.m */; };
-		CE70344D1C1AFCDF00C9A21D /* BTObjectContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE70344B1C1AFCDF00C9A21D /* BTObjectContentCell.m */; };
-		CE70344E1C1AFCDF00C9A21D /* BTObjectContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE70344C1C1AFCDF00C9A21D /* BTObjectContentCell.xib */; };
-		CE7034511C1B03D400C9A21D /* BTObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7034501C1B03D400C9A21D /* BTObject.m */; };
-		CE8B7B3E1C1EE2510075325C /* BTMJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8B7B3D1C1EE2510075325C /* BTMJExtension.m */; };
-		CE8B7B411C1EE58A0075325C /* UIImageView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8B7B401C1EE58A0075325C /* UIImageView+Extension.m */; };
-		CE8B7B441C1F36D60075325C /* BTSingleProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8B7B431C1F36D60075325C /* BTSingleProductListViewController.m */; };
-		CE8B7B481C1F3B0A0075325C /* BTSingleViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8B7B461C1F3B0A0075325C /* BTSingleViewCell.m */; };
-		CE8B7B491C1F3B0A0075325C /* BTSingleViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8B7B471C1F3B0A0075325C /* BTSingleViewCell.xib */; };
-		CEB4A6031C1DAAEE00EB57F5 /* BTSearchProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB4A6021C1DAAEE00EB57F5 /* BTSearchProductViewController.m */; };
-		CEB4A6061C1DAB3B00EB57F5 /* BTSingleProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB4A6051C1DAB3B00EB57F5 /* BTSingleProductViewController.m */; };
-		CEB4A6091C1DAB5400EB57F5 /* BTProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB4A6081C1DAB5400EB57F5 /* BTProductListViewController.m */; };
-		CEB4A6191C1DE07300EB57F5 /* BTSceneViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB4A6171C1DE07300EB57F5 /* BTSceneViewCell.m */; };
-		CEB4A61A1C1DE07300EB57F5 /* BTSceneViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB4A6181C1DE07300EB57F5 /* BTSceneViewCell.xib */; };
-		CEB4A61D1C1E6CC600EB57F5 /* BTSubProductView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB4A61C1C1E6CC600EB57F5 /* BTSubProductView.m */; };
-		CEB4A6211C1E6D9100EB57F5 /* BTSubTagViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB4A61F1C1E6D9100EB57F5 /* BTSubTagViewCell.m */; };
-		CEB4A6221C1E6D9100EB57F5 /* BTSubTagViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB4A6201C1E6D9100EB57F5 /* BTSubTagViewCell.xib */; };
-		CEB4A6251C1E9C0F00EB57F5 /* BTTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB4A6241C1E9C0F00EB57F5 /* BTTopicViewController.m */; };
+		CE3BB0EE1C2A8B6B00971055 /* BTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB0C41C2A8B6B00971055 /* BTHomeViewController.m */; };
+		CE3BB0F01C2A8B6B00971055 /* BTTopicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB0C81C2A8B6B00971055 /* BTTopicDetailViewController.m */; };
+		CE3BB0F11C2A8B6B00971055 /* BTTopicDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3BB0C91C2A8B6B00971055 /* BTTopicDetailViewController.xib */; };
+		CE3BB0F21C2A8B6B00971055 /* BTTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB0CB1C2A8B6B00971055 /* BTTopicViewController.m */; };
+		CE3BB0F31C2A8B6B00971055 /* BTShopListCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB0CE1C2A8B6B00971055 /* BTShopListCategoryViewController.m */; };
+		CE3BB0F41C2A8B6B00971055 /* BTSearchProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB0D01C2A8B6B00971055 /* BTSearchProductViewController.m */; };
+		CE3BB0F51C2A8B6B00971055 /* BTProductCatagoryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB0D21C2A8B6B00971055 /* BTProductCatagoryListViewController.m */; };
+		CE3BB0F61C2A8B6B00971055 /* BTSubProductView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB0D41C2A8B6B00971055 /* BTSubProductView.m */; };
+		CE3BB0F71C2A8B6B00971055 /* BTBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB0D71C2A8B6B00971055 /* BTBanner.m */; };
+		CE3BB0F91C2A8B6B00971055 /* BTShopList.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB0DB1C2A8B6B00971055 /* BTShopList.m */; };
+		CE3BB0FA1C2A8B6B00971055 /* BTTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB0DD1C2A8B6B00971055 /* BTTopic.m */; };
+		CE3BB0FB1C2A8B6B00971055 /* BTEntryView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB0E01C2A8B6B00971055 /* BTEntryView.m */; };
+		CE3BB0FC1C2A8B6B00971055 /* BTTopicViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB0E21C2A8B6B00971055 /* BTTopicViewCell.m */; };
+		CE3BB0FD1C2A8B6B00971055 /* BTTopicViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3BB0E31C2A8B6B00971055 /* BTTopicViewCell.xib */; };
+		CE3BB0FE1C2A8B6B00971055 /* BTSceneViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB0E61C2A8B6B00971055 /* BTSceneViewCell.m */; };
+		CE3BB0FF1C2A8B6B00971055 /* BTSceneViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3BB0E71C2A8B6B00971055 /* BTSceneViewCell.xib */; };
+		CE3BB1001C2A8B6B00971055 /* BTSingleViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB0E91C2A8B6B00971055 /* BTSingleViewCell.m */; };
+		CE3BB1011C2A8B6B00971055 /* BTSingleViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3BB0EA1C2A8B6B00971055 /* BTSingleViewCell.xib */; };
+		CE3BB1021C2A8B6B00971055 /* BTSubTagViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB0EC1C2A8B6B00971055 /* BTSubTagViewCell.m */; };
+		CE3BB1031C2A8B6B00971055 /* BTSubTagViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3BB0ED1C2A8B6B00971055 /* BTSubTagViewCell.xib */; };
+		CE3BB1061C2ABB3400971055 /* BTSubjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB1051C2ABB3400971055 /* BTSubjectViewController.m */; };
+		CE3BB10A1C2ABC4C00971055 /* BTObjectContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB1081C2ABC4C00971055 /* BTObjectContentCell.m */; };
+		CE3BB10B1C2ABC4C00971055 /* BTObjectContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3BB1091C2ABC4C00971055 /* BTObjectContentCell.xib */; };
+		CE3BB10E1C2ABDA900971055 /* BTEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB10D1C2ABDA900971055 /* BTEntry.m */; };
+		CE3BB1111C2ABFE900971055 /* BTProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB1101C2ABFE900971055 /* BTProductListViewController.m */; };
+		CE3BB1151C2AC24100971055 /* BTShopListDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB1141C2AC24100971055 /* BTShopListDataTool.m */; };
+		CE90071D1C280D0900A69FC9 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90070A1C280D0900A69FC9 /* UIImage+Image.m */; };
+		CE90071E1C280D0900A69FC9 /* UIImageView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90070C1C280D0900A69FC9 /* UIImageView+Extension.m */; };
+		CE90071F1C280D0900A69FC9 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90070E1C280D0900A69FC9 /* UIView+Extension.m */; };
+		CE9007211C280D0900A69FC9 /* BTHUDProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9007131C280D0900A69FC9 /* BTHUDProgress.m */; };
+		CE9007231C280D0900A69FC9 /* BTHttpRusult.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90071A1C280D0900A69FC9 /* BTHttpRusult.m */; };
+		CE9007241C280D0900A69FC9 /* BTHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90071C1C280D0900A69FC9 /* BTHttpUtil.m */; };
+		CE9007261C280DDF00A69FC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9007251C280DDF00A69FC9 /* main.m */; };
+		CE9007291C280EFE00A69FC9 /* FZLT_Light.TTF in Resources */ = {isa = PBXBuildFile; fileRef = CE9007281C280EFE00A69FC9 /* FZLT_Light.TTF */; };
+		CE9007C31C28110D00A69FC9 /* BTProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9007A21C28110D00A69FC9 /* BTProductViewController.m */; };
+		CE9007C51C28110D00A69FC9 /* BTViewWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9007A61C28110D00A69FC9 /* BTViewWebController.m */; };
+		CE9007C61C28110D00A69FC9 /* BTDynamic.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9007A91C28110D00A69FC9 /* BTDynamic.m */; };
+		CE9007C81C28110D00A69FC9 /* BTObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9007AD1C28110D00A69FC9 /* BTObject.m */; };
+		CE9007C91C28110D00A69FC9 /* BTPic.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9007AF1C28110D00A69FC9 /* BTPic.m */; };
+		CE9007CB1C28110D00A69FC9 /* BTTag.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9007B31C28110D00A69FC9 /* BTTag.m */; };
+		CE9007CC1C28110D00A69FC9 /* BTAttentionBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9007B61C28110D00A69FC9 /* BTAttentionBtn.m */; };
+		CE9007CD1C28110D00A69FC9 /* BTCircleImg.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9007B81C28110D00A69FC9 /* BTCircleImg.m */; };
+		CE9007CE1C28110D00A69FC9 /* BTGoodBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9007BA1C28110D00A69FC9 /* BTGoodBanner.m */; };
+		CE9007CF1C28110D00A69FC9 /* BTGoodBanner.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9007BB1C28110D00A69FC9 /* BTGoodBanner.xib */; };
+		CE9007D01C28110D00A69FC9 /* BTProductViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9007BD1C28110D00A69FC9 /* BTProductViewCell.m */; };
+		CE9007D11C28110D00A69FC9 /* BTProductViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9007BE1C28110D00A69FC9 /* BTProductViewCell.xib */; };
+		CE9007D71C28114D00A69FC9 /* BTMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9007D61C28114D00A69FC9 /* BTMessageViewController.m */; };
+		CE9007DC1C28117100A69FC9 /* BTMessageNoticeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9007DA1C28117100A69FC9 /* BTMessageNoticeCell.m */; };
+		CE9007DD1C28117100A69FC9 /* BTMessageNoticeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9007DB1C28117100A69FC9 /* BTMessageNoticeCell.xib */; };
+		CE9007EC1C28270600A69FC9 /* BTIndexListDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9007EB1C28270600A69FC9 /* BTIndexListDataTool.m */; };
+		CE9007F01C29150800A69FC9 /* BTDataBaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9007EF1C29150800A69FC9 /* BTDataBaseTool.m */; };
+		CE9007F41C291D0F00A69FC9 /* BTMJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9007F31C291D0F00A69FC9 /* BTMJExtension.m */; };
+		CE9007F71C291D4B00A69FC9 /* BTModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9007F61C291D4B00A69FC9 /* BTModelTool.m */; };
+		CE9007FA1C29A0F100A69FC9 /* BTProductDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9007F91C29A0F100A69FC9 /* BTProductDataTool.m */; };
+		CE9007FD1C2A375F00A69FC9 /* BTProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9007FC1C2A375F00A69FC9 /* BTProduct.m */; };
 		CEBEB90E1C197663009863F7 /* BTTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBEB90D1C197663009863F7 /* BTTabbar.m */; };
-		CECCDD3A1C0EF19D00A4FA6B /* BTGoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD391C0EF19D00A4FA6B /* BTGoodViewController.m */; };
-		CECCDD3D1C0EF1AE00A4FA6B /* BTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD3C1C0EF1AE00A4FA6B /* BTHomeViewController.m */; };
-		CECCDD401C0EF1BD00A4FA6B /* BTMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD3F1C0EF1BD00A4FA6B /* BTMessageViewController.m */; };
-		CECCDD4D1C10431A00A4FA6B /* BTHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD4C1C10431A00A4FA6B /* BTHttpUtil.m */; };
-		CECCDD581C1047B500A4FA6B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECCDD561C1047B500A4FA6B /* Launch Screen.storyboard */; };
 		CECCDD5B1C1048C900A4FA6B /* BTMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD5A1C1048C900A4FA6B /* BTMyViewController.m */; };
-		CECCDD5F1C10496A00A4FA6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CECCDD5E1C10496A00A4FA6B /* Info.plist */; };
-		CECCDD631C106B3400A4FA6B /* BTTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD621C106B3400A4FA6B /* BTTopic.m */; };
-		CECCDD661C106BC600A4FA6B /* BTBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD651C106BC600A4FA6B /* BTBanner.m */; };
-		CECCDD691C106CD000A4FA6B /* BTEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDD681C106CD000A4FA6B /* BTEntry.m */; };
-		CECCDDB61C107CB800A4FA6B /* BTTopicViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDDB41C107CB800A4FA6B /* BTTopicViewCell.m */; };
-		CECCDDB71C107CB800A4FA6B /* BTTopicViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECCDDB51C107CB800A4FA6B /* BTTopicViewCell.xib */; };
-		CECCDDBB1C10921400A4FA6B /* BTEntryView.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDDBA1C10921400A4FA6B /* BTEntryView.m */; };
-		CECCDDBE1C1095EA00A4FA6B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCDDBD1C1095EA00A4FA6B /* UIView+Extension.m */; };
-		CEF60E4F1C195DAE00255802 /* BTHttpRusult.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF60E4E1C195DAE00255802 /* BTHttpRusult.m */; };
-		CEF60E521C195F1E00255802 /* BTHUDProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF60E511C195F1E00255802 /* BTHUDProgress.m */; };
-		CEF60E551C196BC200255802 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF60E541C196BC200255802 /* UIImage+Image.m */; };
 		CEF60E611C1975FE00255802 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF60E581C1975FE00255802 /* AppDelegate.m */; };
 		CEF60E621C1975FE00255802 /* BTHomeNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF60E5A1C1975FE00255802 /* BTHomeNavigationViewController.m */; };
 		CEF60E631C1975FE00255802 /* BTNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF60E5C1C1975FE00255802 /* BTNavigationViewController.m */; };
 		CEF60E641C1975FE00255802 /* BTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF60E5E1C1975FE00255802 /* BTTabBarController.m */; };
 		CEFF26B31C19F1B900700A51 /* BTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFF26B21C19F1B900700A51 /* BTUser.m */; };
-		CEFF26B61C19F20700700A51 /* BTPic.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFF26B51C19F20700700A51 /* BTPic.m */; };
-		CEFF26B91C19F22A00700A51 /* BTTag.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFF26B81C19F22A00700A51 /* BTTag.m */; };
-		CEFF26BC1C19F29000700A51 /* BTProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFF26BB1C19F29000700A51 /* BTProduct.m */; };
-		CEFF26BF1C19F2D500700A51 /* BTDynamic.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFF26BE1C19F2D500700A51 /* BTDynamic.m */; };
-		CEFF26C51C19F82000700A51 /* BTAttentionBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFF26C41C19F82000700A51 /* BTAttentionBtn.m */; };
-		CEFF26C81C19F92200700A51 /* BTCircleImg.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFF26C71C19F92200700A51 /* BTCircleImg.m */; };
-		CEFF26D01C19FAA100700A51 /* BTGoodBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFF26CE1C19FAA100700A51 /* BTGoodBanner.m */; };
-		CEFF26D11C19FAA100700A51 /* BTGoodBanner.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFF26CF1C19FAA100700A51 /* BTGoodBanner.xib */; };
 		CEFF26D51C1A5C4200700A51 /* BTLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFF26D31C1A5C4200700A51 /* BTLoginController.m */; };
 		CEFF26D61C1A5C4200700A51 /* BTLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFF26D41C1A5C4200700A51 /* BTLoginController.xib */; };
 		F151BA77D20AE8808839D3FE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D90D0710494D384576E1648 /* libPods.a */; };
@@ -92,11 +98,7 @@
 		7D7A606228221530EFB80A36 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8D90D0710494D384576E1648 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24B16AA4F07E7E45140E1A1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		CE0BFC231C1275D100CAB293 /* BTTopicDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTopicDetailViewController.h; sourceTree = "<group>"; };
-		CE0BFC241C1275D100CAB293 /* BTTopicDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTopicDetailViewController.m; sourceTree = "<group>"; };
-		CE0BFC251C1275D100CAB293 /* BTTopicDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTTopicDetailViewController.xib; sourceTree = "<group>"; };
 		CE2305A11C0ED7F3003AA80C /* BanTang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BanTang.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE2305A51C0ED7F3003AA80C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE2305B01C0ED7F3003AA80C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE2305BA1C0ED7F3003AA80C /* BanTangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BanTangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2305BE1C0ED7F3003AA80C /* BanTangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BanTangTests.m; sourceTree = "<group>"; };
@@ -104,81 +106,112 @@
 		CE2305C51C0ED7F3003AA80C /* BanTangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BanTangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2305C91C0ED7F3003AA80C /* BanTangUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BanTangUITests.m; sourceTree = "<group>"; };
 		CE2305CB1C0ED7F3003AA80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE4AD9031C19E9750039EDF0 /* BTGoodViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTGoodViewCell.h; sourceTree = "<group>"; };
-		CE4AD9041C19E9750039EDF0 /* BTGoodViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTGoodViewCell.m; sourceTree = "<group>"; };
-		CE4AD9051C19E9750039EDF0 /* BTGoodViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTGoodViewCell.xib; sourceTree = "<group>"; };
-		CE4AD90A1C19ED0E0039EDF0 /* BTGood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTGood.h; sourceTree = "<group>"; };
-		CE4AD90B1C19ED0E0039EDF0 /* BTGood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTGood.m; sourceTree = "<group>"; };
-		CE70343E1C1AD06A00C9A21D /* BTViewWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTViewWebController.h; sourceTree = "<group>"; };
-		CE70343F1C1AD06A00C9A21D /* BTViewWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTViewWebController.m; sourceTree = "<group>"; };
-		CE7034411C1AF58C00C9A21D /* BTSubjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSubjectViewController.h; sourceTree = "<group>"; };
-		CE7034421C1AF58C00C9A21D /* BTSubjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSubjectViewController.m; sourceTree = "<group>"; };
-		CE70344A1C1AFCDF00C9A21D /* BTObjectContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTObjectContentCell.h; sourceTree = "<group>"; };
-		CE70344B1C1AFCDF00C9A21D /* BTObjectContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTObjectContentCell.m; sourceTree = "<group>"; };
-		CE70344C1C1AFCDF00C9A21D /* BTObjectContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTObjectContentCell.xib; sourceTree = "<group>"; };
-		CE70344F1C1B03D400C9A21D /* BTObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTObject.h; sourceTree = "<group>"; };
-		CE7034501C1B03D400C9A21D /* BTObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTObject.m; sourceTree = "<group>"; };
-		CE8B7B3C1C1EE2510075325C /* BTMJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMJExtension.h; sourceTree = "<group>"; };
-		CE8B7B3D1C1EE2510075325C /* BTMJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMJExtension.m; sourceTree = "<group>"; };
-		CE8B7B3F1C1EE58A0075325C /* UIImageView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extension.h"; sourceTree = "<group>"; };
-		CE8B7B401C1EE58A0075325C /* UIImageView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extension.m"; sourceTree = "<group>"; };
-		CE8B7B421C1F36D60075325C /* BTSingleProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSingleProductListViewController.h; sourceTree = "<group>"; };
-		CE8B7B431C1F36D60075325C /* BTSingleProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSingleProductListViewController.m; sourceTree = "<group>"; };
-		CE8B7B451C1F3B0A0075325C /* BTSingleViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSingleViewCell.h; sourceTree = "<group>"; };
-		CE8B7B461C1F3B0A0075325C /* BTSingleViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSingleViewCell.m; sourceTree = "<group>"; };
-		CE8B7B471C1F3B0A0075325C /* BTSingleViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTSingleViewCell.xib; sourceTree = "<group>"; };
-		CEB4A6011C1DAAEE00EB57F5 /* BTSearchProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSearchProductViewController.h; sourceTree = "<group>"; };
-		CEB4A6021C1DAAEE00EB57F5 /* BTSearchProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSearchProductViewController.m; sourceTree = "<group>"; };
-		CEB4A6041C1DAB3B00EB57F5 /* BTSingleProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSingleProductViewController.h; sourceTree = "<group>"; };
-		CEB4A6051C1DAB3B00EB57F5 /* BTSingleProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSingleProductViewController.m; sourceTree = "<group>"; };
-		CEB4A6071C1DAB5400EB57F5 /* BTProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTProductListViewController.h; sourceTree = "<group>"; };
-		CEB4A6081C1DAB5400EB57F5 /* BTProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTProductListViewController.m; sourceTree = "<group>"; };
-		CEB4A6161C1DE07300EB57F5 /* BTSceneViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSceneViewCell.h; sourceTree = "<group>"; };
-		CEB4A6171C1DE07300EB57F5 /* BTSceneViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSceneViewCell.m; sourceTree = "<group>"; };
-		CEB4A6181C1DE07300EB57F5 /* BTSceneViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTSceneViewCell.xib; sourceTree = "<group>"; };
-		CEB4A61B1C1E6CC600EB57F5 /* BTSubProductView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSubProductView.h; sourceTree = "<group>"; };
-		CEB4A61C1C1E6CC600EB57F5 /* BTSubProductView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSubProductView.m; sourceTree = "<group>"; };
-		CEB4A61E1C1E6D9100EB57F5 /* BTSubTagViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSubTagViewCell.h; sourceTree = "<group>"; };
-		CEB4A61F1C1E6D9100EB57F5 /* BTSubTagViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSubTagViewCell.m; sourceTree = "<group>"; };
-		CEB4A6201C1E6D9100EB57F5 /* BTSubTagViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTSubTagViewCell.xib; sourceTree = "<group>"; };
-		CEB4A6231C1E9C0F00EB57F5 /* BTTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTopicViewController.h; sourceTree = "<group>"; };
-		CEB4A6241C1E9C0F00EB57F5 /* BTTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTopicViewController.m; sourceTree = "<group>"; };
+		CE3BB0C31C2A8B6B00971055 /* BTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHomeViewController.h; sourceTree = "<group>"; };
+		CE3BB0C41C2A8B6B00971055 /* BTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHomeViewController.m; sourceTree = "<group>"; };
+		CE3BB0C71C2A8B6B00971055 /* BTTopicDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTopicDetailViewController.h; sourceTree = "<group>"; };
+		CE3BB0C81C2A8B6B00971055 /* BTTopicDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTopicDetailViewController.m; sourceTree = "<group>"; };
+		CE3BB0C91C2A8B6B00971055 /* BTTopicDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTTopicDetailViewController.xib; sourceTree = "<group>"; };
+		CE3BB0CA1C2A8B6B00971055 /* BTTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTopicViewController.h; sourceTree = "<group>"; };
+		CE3BB0CB1C2A8B6B00971055 /* BTTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTopicViewController.m; sourceTree = "<group>"; };
+		CE3BB0CD1C2A8B6B00971055 /* BTShopListCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTShopListCategoryViewController.h; sourceTree = "<group>"; };
+		CE3BB0CE1C2A8B6B00971055 /* BTShopListCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTShopListCategoryViewController.m; sourceTree = "<group>"; };
+		CE3BB0CF1C2A8B6B00971055 /* BTSearchProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSearchProductViewController.h; sourceTree = "<group>"; };
+		CE3BB0D01C2A8B6B00971055 /* BTSearchProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSearchProductViewController.m; sourceTree = "<group>"; };
+		CE3BB0D11C2A8B6B00971055 /* BTProductCatagoryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTProductCatagoryListViewController.h; sourceTree = "<group>"; };
+		CE3BB0D21C2A8B6B00971055 /* BTProductCatagoryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTProductCatagoryListViewController.m; sourceTree = "<group>"; };
+		CE3BB0D31C2A8B6B00971055 /* BTSubProductView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSubProductView.h; sourceTree = "<group>"; };
+		CE3BB0D41C2A8B6B00971055 /* BTSubProductView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSubProductView.m; sourceTree = "<group>"; };
+		CE3BB0D61C2A8B6B00971055 /* BTBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBanner.h; sourceTree = "<group>"; };
+		CE3BB0D71C2A8B6B00971055 /* BTBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBanner.m; sourceTree = "<group>"; };
+		CE3BB0DA1C2A8B6B00971055 /* BTShopList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTShopList.h; sourceTree = "<group>"; };
+		CE3BB0DB1C2A8B6B00971055 /* BTShopList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTShopList.m; sourceTree = "<group>"; };
+		CE3BB0DC1C2A8B6B00971055 /* BTTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTopic.h; sourceTree = "<group>"; };
+		CE3BB0DD1C2A8B6B00971055 /* BTTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTopic.m; sourceTree = "<group>"; };
+		CE3BB0DF1C2A8B6B00971055 /* BTEntryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTEntryView.h; sourceTree = "<group>"; };
+		CE3BB0E01C2A8B6B00971055 /* BTEntryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTEntryView.m; sourceTree = "<group>"; };
+		CE3BB0E11C2A8B6B00971055 /* BTTopicViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTopicViewCell.h; sourceTree = "<group>"; };
+		CE3BB0E21C2A8B6B00971055 /* BTTopicViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTopicViewCell.m; sourceTree = "<group>"; };
+		CE3BB0E31C2A8B6B00971055 /* BTTopicViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTTopicViewCell.xib; sourceTree = "<group>"; };
+		CE3BB0E51C2A8B6B00971055 /* BTSceneViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSceneViewCell.h; sourceTree = "<group>"; };
+		CE3BB0E61C2A8B6B00971055 /* BTSceneViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSceneViewCell.m; sourceTree = "<group>"; };
+		CE3BB0E71C2A8B6B00971055 /* BTSceneViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTSceneViewCell.xib; sourceTree = "<group>"; };
+		CE3BB0E81C2A8B6B00971055 /* BTSingleViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSingleViewCell.h; sourceTree = "<group>"; };
+		CE3BB0E91C2A8B6B00971055 /* BTSingleViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSingleViewCell.m; sourceTree = "<group>"; };
+		CE3BB0EA1C2A8B6B00971055 /* BTSingleViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTSingleViewCell.xib; sourceTree = "<group>"; };
+		CE3BB0EB1C2A8B6B00971055 /* BTSubTagViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSubTagViewCell.h; sourceTree = "<group>"; };
+		CE3BB0EC1C2A8B6B00971055 /* BTSubTagViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSubTagViewCell.m; sourceTree = "<group>"; };
+		CE3BB0ED1C2A8B6B00971055 /* BTSubTagViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTSubTagViewCell.xib; sourceTree = "<group>"; };
+		CE3BB1041C2ABB3400971055 /* BTSubjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSubjectViewController.h; sourceTree = "<group>"; };
+		CE3BB1051C2ABB3400971055 /* BTSubjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSubjectViewController.m; sourceTree = "<group>"; };
+		CE3BB1071C2ABC4C00971055 /* BTObjectContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTObjectContentCell.h; sourceTree = "<group>"; };
+		CE3BB1081C2ABC4C00971055 /* BTObjectContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTObjectContentCell.m; sourceTree = "<group>"; };
+		CE3BB1091C2ABC4C00971055 /* BTObjectContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTObjectContentCell.xib; sourceTree = "<group>"; };
+		CE3BB10C1C2ABDA900971055 /* BTEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTEntry.h; sourceTree = "<group>"; };
+		CE3BB10D1C2ABDA900971055 /* BTEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTEntry.m; sourceTree = "<group>"; };
+		CE3BB10F1C2ABFE900971055 /* BTProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTProductListViewController.h; sourceTree = "<group>"; };
+		CE3BB1101C2ABFE900971055 /* BTProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTProductListViewController.m; sourceTree = "<group>"; };
+		CE3BB1131C2AC24100971055 /* BTShopListDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTShopListDataTool.h; sourceTree = "<group>"; };
+		CE3BB1141C2AC24100971055 /* BTShopListDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTShopListDataTool.m; sourceTree = "<group>"; };
+		CE9007091C280D0900A69FC9 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		CE90070A1C280D0900A69FC9 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		CE90070B1C280D0900A69FC9 /* UIImageView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extension.h"; sourceTree = "<group>"; };
+		CE90070C1C280D0900A69FC9 /* UIImageView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extension.m"; sourceTree = "<group>"; };
+		CE90070D1C280D0900A69FC9 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		CE90070E1C280D0900A69FC9 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		CE9007101C280D0900A69FC9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9007121C280D0900A69FC9 /* BTHUDProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHUDProgress.h; sourceTree = "<group>"; };
+		CE9007131C280D0900A69FC9 /* BTHUDProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHUDProgress.m; sourceTree = "<group>"; };
+		CE9007181C280D0900A69FC9 /* BTHttpConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHttpConstant.h; sourceTree = "<group>"; };
+		CE9007191C280D0900A69FC9 /* BTHttpRusult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHttpRusult.h; sourceTree = "<group>"; };
+		CE90071A1C280D0900A69FC9 /* BTHttpRusult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHttpRusult.m; sourceTree = "<group>"; };
+		CE90071B1C280D0900A69FC9 /* BTHttpUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHttpUtil.h; sourceTree = "<group>"; };
+		CE90071C1C280D0900A69FC9 /* BTHttpUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHttpUtil.m; sourceTree = "<group>"; };
+		CE9007251C280DDF00A69FC9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE9007271C280EFE00A69FC9 /* BanTang.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BanTang.pch; sourceTree = "<group>"; };
+		CE9007281C280EFE00A69FC9 /* FZLT_Light.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = FZLT_Light.TTF; sourceTree = "<group>"; };
+		CE9007A11C28110D00A69FC9 /* BTProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTProductViewController.h; sourceTree = "<group>"; };
+		CE9007A21C28110D00A69FC9 /* BTProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTProductViewController.m; sourceTree = "<group>"; };
+		CE9007A51C28110D00A69FC9 /* BTViewWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTViewWebController.h; sourceTree = "<group>"; };
+		CE9007A61C28110D00A69FC9 /* BTViewWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTViewWebController.m; sourceTree = "<group>"; };
+		CE9007A81C28110D00A69FC9 /* BTDynamic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDynamic.h; sourceTree = "<group>"; };
+		CE9007A91C28110D00A69FC9 /* BTDynamic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDynamic.m; sourceTree = "<group>"; };
+		CE9007AC1C28110D00A69FC9 /* BTObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTObject.h; sourceTree = "<group>"; };
+		CE9007AD1C28110D00A69FC9 /* BTObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTObject.m; sourceTree = "<group>"; };
+		CE9007AE1C28110D00A69FC9 /* BTPic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPic.h; sourceTree = "<group>"; };
+		CE9007AF1C28110D00A69FC9 /* BTPic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPic.m; sourceTree = "<group>"; };
+		CE9007B21C28110D00A69FC9 /* BTTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTag.h; sourceTree = "<group>"; };
+		CE9007B31C28110D00A69FC9 /* BTTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTag.m; sourceTree = "<group>"; };
+		CE9007B51C28110D00A69FC9 /* BTAttentionBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAttentionBtn.h; sourceTree = "<group>"; };
+		CE9007B61C28110D00A69FC9 /* BTAttentionBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAttentionBtn.m; sourceTree = "<group>"; };
+		CE9007B71C28110D00A69FC9 /* BTCircleImg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCircleImg.h; sourceTree = "<group>"; };
+		CE9007B81C28110D00A69FC9 /* BTCircleImg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCircleImg.m; sourceTree = "<group>"; };
+		CE9007B91C28110D00A69FC9 /* BTGoodBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTGoodBanner.h; sourceTree = "<group>"; };
+		CE9007BA1C28110D00A69FC9 /* BTGoodBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTGoodBanner.m; sourceTree = "<group>"; };
+		CE9007BB1C28110D00A69FC9 /* BTGoodBanner.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTGoodBanner.xib; sourceTree = "<group>"; };
+		CE9007BC1C28110D00A69FC9 /* BTProductViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTProductViewCell.h; sourceTree = "<group>"; };
+		CE9007BD1C28110D00A69FC9 /* BTProductViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTProductViewCell.m; sourceTree = "<group>"; };
+		CE9007BE1C28110D00A69FC9 /* BTProductViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTProductViewCell.xib; sourceTree = "<group>"; };
+		CE9007D51C28114D00A69FC9 /* BTMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMessageViewController.h; sourceTree = "<group>"; };
+		CE9007D61C28114D00A69FC9 /* BTMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMessageViewController.m; sourceTree = "<group>"; };
+		CE9007D91C28117100A69FC9 /* BTMessageNoticeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMessageNoticeCell.h; sourceTree = "<group>"; };
+		CE9007DA1C28117100A69FC9 /* BTMessageNoticeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMessageNoticeCell.m; sourceTree = "<group>"; };
+		CE9007DB1C28117100A69FC9 /* BTMessageNoticeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTMessageNoticeCell.xib; sourceTree = "<group>"; };
+		CE9007EA1C28270600A69FC9 /* BTIndexListDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTIndexListDataTool.h; sourceTree = "<group>"; };
+		CE9007EB1C28270600A69FC9 /* BTIndexListDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTIndexListDataTool.m; sourceTree = "<group>"; };
+		CE9007EE1C29150800A69FC9 /* BTDataBaseTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDataBaseTool.h; sourceTree = "<group>"; };
+		CE9007EF1C29150800A69FC9 /* BTDataBaseTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDataBaseTool.m; sourceTree = "<group>"; };
+		CE9007F21C291D0F00A69FC9 /* BTMJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMJExtension.h; sourceTree = "<group>"; };
+		CE9007F31C291D0F00A69FC9 /* BTMJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMJExtension.m; sourceTree = "<group>"; };
+		CE9007F51C291D4B00A69FC9 /* BTModelTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTModelTool.h; sourceTree = "<group>"; };
+		CE9007F61C291D4B00A69FC9 /* BTModelTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTModelTool.m; sourceTree = "<group>"; };
+		CE9007F81C29A0F100A69FC9 /* BTProductDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTProductDataTool.h; sourceTree = "<group>"; };
+		CE9007F91C29A0F100A69FC9 /* BTProductDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTProductDataTool.m; sourceTree = "<group>"; };
+		CE9007FB1C2A375F00A69FC9 /* BTProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTProduct.h; sourceTree = "<group>"; };
+		CE9007FC1C2A375F00A69FC9 /* BTProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTProduct.m; sourceTree = "<group>"; };
 		CEBEB90C1C197663009863F7 /* BTTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTabbar.h; sourceTree = "<group>"; };
 		CEBEB90D1C197663009863F7 /* BTTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTabbar.m; sourceTree = "<group>"; };
-		CECCDD381C0EF19D00A4FA6B /* BTGoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTGoodViewController.h; sourceTree = "<group>"; };
-		CECCDD391C0EF19D00A4FA6B /* BTGoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTGoodViewController.m; sourceTree = "<group>"; };
-		CECCDD3B1C0EF1AE00A4FA6B /* BTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHomeViewController.h; sourceTree = "<group>"; };
-		CECCDD3C1C0EF1AE00A4FA6B /* BTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHomeViewController.m; sourceTree = "<group>"; };
-		CECCDD3E1C0EF1BD00A4FA6B /* BTMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMessageViewController.h; sourceTree = "<group>"; };
-		CECCDD3F1C0EF1BD00A4FA6B /* BTMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMessageViewController.m; sourceTree = "<group>"; };
-		CECCDD4B1C10431A00A4FA6B /* BTHttpUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHttpUtil.h; sourceTree = "<group>"; };
-		CECCDD4C1C10431A00A4FA6B /* BTHttpUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHttpUtil.m; sourceTree = "<group>"; };
-		CECCDD4E1C10435400A4FA6B /* BTHttpConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHttpConstant.h; sourceTree = "<group>"; };
-		CECCDD561C1047B500A4FA6B /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		CECCDD591C1048C900A4FA6B /* BTMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTMyViewController.h; path = BanTang/My/Controller/BTMyViewController.h; sourceTree = SOURCE_ROOT; };
 		CECCDD5A1C1048C900A4FA6B /* BTMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTMyViewController.m; path = BanTang/My/Controller/BTMyViewController.m; sourceTree = SOURCE_ROOT; };
-		CECCDD5E1C10496A00A4FA6B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CECCDD601C10499B00A4FA6B /* BanTang.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BanTang.pch; sourceTree = "<group>"; };
-		CECCDD611C106B3400A4FA6B /* BTTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTopic.h; sourceTree = "<group>"; };
-		CECCDD621C106B3400A4FA6B /* BTTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTopic.m; sourceTree = "<group>"; };
-		CECCDD641C106BC600A4FA6B /* BTBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBanner.h; sourceTree = "<group>"; };
-		CECCDD651C106BC600A4FA6B /* BTBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBanner.m; sourceTree = "<group>"; };
-		CECCDD671C106CD000A4FA6B /* BTEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTEntry.h; sourceTree = "<group>"; };
-		CECCDD681C106CD000A4FA6B /* BTEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTEntry.m; sourceTree = "<group>"; };
-		CECCDDB31C107CB800A4FA6B /* BTTopicViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTopicViewCell.h; sourceTree = "<group>"; };
-		CECCDDB41C107CB800A4FA6B /* BTTopicViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTopicViewCell.m; sourceTree = "<group>"; };
-		CECCDDB51C107CB800A4FA6B /* BTTopicViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTTopicViewCell.xib; sourceTree = "<group>"; };
-		CECCDDB81C107F4600A4FA6B /* FZLT_Light.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = FZLT_Light.TTF; sourceTree = "<group>"; };
-		CECCDDB91C10921400A4FA6B /* BTEntryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTEntryView.h; sourceTree = "<group>"; };
-		CECCDDBA1C10921400A4FA6B /* BTEntryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTEntryView.m; sourceTree = "<group>"; };
-		CECCDDBC1C1095EA00A4FA6B /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		CECCDDBD1C1095EA00A4FA6B /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		CEF60E4D1C195DAE00255802 /* BTHttpRusult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHttpRusult.h; sourceTree = "<group>"; };
-		CEF60E4E1C195DAE00255802 /* BTHttpRusult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHttpRusult.m; sourceTree = "<group>"; };
-		CEF60E501C195F1E00255802 /* BTHUDProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHUDProgress.h; sourceTree = "<group>"; };
-		CEF60E511C195F1E00255802 /* BTHUDProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHUDProgress.m; sourceTree = "<group>"; };
-		CEF60E531C196BC200255802 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
-		CEF60E541C196BC200255802 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 		CEF60E571C1975FE00255802 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEF60E581C1975FE00255802 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CEF60E591C1975FE00255802 /* BTHomeNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHomeNavigationViewController.h; sourceTree = "<group>"; };
@@ -189,21 +222,6 @@
 		CEF60E5E1C1975FE00255802 /* BTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTabBarController.m; sourceTree = "<group>"; };
 		CEFF26B11C19F1B900700A51 /* BTUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTUser.h; path = BanTang/My/View/BTUser.h; sourceTree = SOURCE_ROOT; };
 		CEFF26B21C19F1B900700A51 /* BTUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTUser.m; path = BanTang/My/View/BTUser.m; sourceTree = SOURCE_ROOT; };
-		CEFF26B41C19F20700700A51 /* BTPic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPic.h; sourceTree = "<group>"; };
-		CEFF26B51C19F20700700A51 /* BTPic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPic.m; sourceTree = "<group>"; };
-		CEFF26B71C19F22A00700A51 /* BTTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTag.h; sourceTree = "<group>"; };
-		CEFF26B81C19F22A00700A51 /* BTTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTag.m; sourceTree = "<group>"; };
-		CEFF26BA1C19F29000700A51 /* BTProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTProduct.h; sourceTree = "<group>"; };
-		CEFF26BB1C19F29000700A51 /* BTProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTProduct.m; sourceTree = "<group>"; };
-		CEFF26BD1C19F2D500700A51 /* BTDynamic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDynamic.h; sourceTree = "<group>"; };
-		CEFF26BE1C19F2D500700A51 /* BTDynamic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDynamic.m; sourceTree = "<group>"; };
-		CEFF26C31C19F82000700A51 /* BTAttentionBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAttentionBtn.h; sourceTree = "<group>"; };
-		CEFF26C41C19F82000700A51 /* BTAttentionBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAttentionBtn.m; sourceTree = "<group>"; };
-		CEFF26C61C19F92200700A51 /* BTCircleImg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCircleImg.h; sourceTree = "<group>"; };
-		CEFF26C71C19F92200700A51 /* BTCircleImg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCircleImg.m; sourceTree = "<group>"; };
-		CEFF26CD1C19FAA100700A51 /* BTGoodBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTGoodBanner.h; sourceTree = "<group>"; };
-		CEFF26CE1C19FAA100700A51 /* BTGoodBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTGoodBanner.m; sourceTree = "<group>"; };
-		CEFF26CF1C19FAA100700A51 /* BTGoodBanner.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTGoodBanner.xib; sourceTree = "<group>"; };
 		CEFF26D21C1A5C4200700A51 /* BTLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTLoginController.h; path = BanTang/My/Controller/BTLoginController.h; sourceTree = SOURCE_ROOT; };
 		CEFF26D31C1A5C4200700A51 /* BTLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTLoginController.m; path = BanTang/My/Controller/BTLoginController.m; sourceTree = SOURCE_ROOT; };
 		CEFF26D41C1A5C4200700A51 /* BTLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BTLoginController.xib; path = BanTang/My/Controller/BTLoginController.xib; sourceTree = SOURCE_ROOT; };
@@ -277,15 +295,12 @@
 		CE2305A31C0ED7F3003AA80C /* BanTang */ = {
 			isa = PBXGroup;
 			children = (
-				CECCDD5E1C10496A00A4FA6B /* Info.plist */,
-				CECCDD541C1047B500A4FA6B /* Config */,
+				CE3BB0C11C2A8B6B00971055 /* ShopList */,
+				CE3BB0BD1C2A87C000971055 /* Topic */,
+				CE90079F1C28110D00A69FC9 /* Product */,
+				CE9007071C280D0900A69FC9 /* Other */,
 				CE2305F31C0EE1AA003AA80C /* My */,
-				CE2305F01C0EE19A003AA80C /* Utils */,
-				CE2305D71C0ED932003AA80C /* Good */,
-				CE2305DB1C0ED932003AA80C /* Home */,
 				CE2305DF1C0ED932003AA80C /* Main */,
-				CE2305E21C0ED932003AA80C /* Message */,
-				CE2305EA1C0ED932003AA80C /* Publish */,
 				CE2305B01C0ED7F3003AA80C /* Assets.xcassets */,
 				CE2305A41C0ED7F3003AA80C /* Supporting Files */,
 			);
@@ -295,7 +310,6 @@
 		CE2305A41C0ED7F3003AA80C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CE2305A51C0ED7F3003AA80C /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -318,100 +332,6 @@
 			path = BanTangUITests;
 			sourceTree = "<group>";
 		};
-		CE2305D71C0ED932003AA80C /* Good */ = {
-			isa = PBXGroup;
-			children = (
-				CEBEB9121C199FEC009863F7 /* Model */,
-				CE2305D81C0ED932003AA80C /* Controller */,
-				CE2305DA1C0ED932003AA80C /* View */,
-			);
-			path = Good;
-			sourceTree = "<group>";
-		};
-		CE2305D81C0ED932003AA80C /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				CECCDD381C0EF19D00A4FA6B /* BTGoodViewController.h */,
-				CECCDD391C0EF19D00A4FA6B /* BTGoodViewController.m */,
-				CE70343E1C1AD06A00C9A21D /* BTViewWebController.h */,
-				CE70343F1C1AD06A00C9A21D /* BTViewWebController.m */,
-				CE7034411C1AF58C00C9A21D /* BTSubjectViewController.h */,
-				CE7034421C1AF58C00C9A21D /* BTSubjectViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		CE2305DA1C0ED932003AA80C /* View */ = {
-			isa = PBXGroup;
-			children = (
-				CE7034471C1AF78400C9A21D /* Subject */,
-				CE4AD9031C19E9750039EDF0 /* BTGoodViewCell.h */,
-				CE4AD9041C19E9750039EDF0 /* BTGoodViewCell.m */,
-				CE4AD9051C19E9750039EDF0 /* BTGoodViewCell.xib */,
-				CEFF26C31C19F82000700A51 /* BTAttentionBtn.h */,
-				CEFF26C41C19F82000700A51 /* BTAttentionBtn.m */,
-				CEFF26C61C19F92200700A51 /* BTCircleImg.h */,
-				CEFF26C71C19F92200700A51 /* BTCircleImg.m */,
-				CEFF26CD1C19FAA100700A51 /* BTGoodBanner.h */,
-				CEFF26CE1C19FAA100700A51 /* BTGoodBanner.m */,
-				CEFF26CF1C19FAA100700A51 /* BTGoodBanner.xib */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CE2305DB1C0ED932003AA80C /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				CE2305DC1C0ED932003AA80C /* Controller */,
-				CE2305DD1C0ED932003AA80C /* Model */,
-				CE2305DE1C0ED932003AA80C /* View */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		CE2305DC1C0ED932003AA80C /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				CEB4A6001C1DAAEE00EB57F5 /* Search */,
-				CECCDD3B1C0EF1AE00A4FA6B /* BTHomeViewController.h */,
-				CECCDD3C1C0EF1AE00A4FA6B /* BTHomeViewController.m */,
-				CE0BFC231C1275D100CAB293 /* BTTopicDetailViewController.h */,
-				CE0BFC241C1275D100CAB293 /* BTTopicDetailViewController.m */,
-				CE0BFC251C1275D100CAB293 /* BTTopicDetailViewController.xib */,
-				CEB4A6231C1E9C0F00EB57F5 /* BTTopicViewController.h */,
-				CEB4A6241C1E9C0F00EB57F5 /* BTTopicViewController.m */,
-				CE8B7B421C1F36D60075325C /* BTSingleProductListViewController.h */,
-				CE8B7B431C1F36D60075325C /* BTSingleProductListViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		CE2305DD1C0ED932003AA80C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				CECCDD611C106B3400A4FA6B /* BTTopic.h */,
-				CECCDD621C106B3400A4FA6B /* BTTopic.m */,
-				CECCDD641C106BC600A4FA6B /* BTBanner.h */,
-				CECCDD651C106BC600A4FA6B /* BTBanner.m */,
-				CECCDD671C106CD000A4FA6B /* BTEntry.h */,
-				CECCDD681C106CD000A4FA6B /* BTEntry.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CE2305DE1C0ED932003AA80C /* View */ = {
-			isa = PBXGroup;
-			children = (
-				CEB4A60A1C1DCC6300EB57F5 /* Search */,
-				CECCDDB31C107CB800A4FA6B /* BTTopicViewCell.h */,
-				CECCDDB41C107CB800A4FA6B /* BTTopicViewCell.m */,
-				CECCDDB51C107CB800A4FA6B /* BTTopicViewCell.xib */,
-				CECCDDB91C10921400A4FA6B /* BTEntryView.h */,
-				CECCDDBA1C10921400A4FA6B /* BTEntryView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		CE2305DF1C0ED932003AA80C /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -420,104 +340,6 @@
 				CEF60E601C1975FE00255802 /* View */,
 			);
 			path = Main;
-			sourceTree = "<group>";
-		};
-		CE2305E21C0ED932003AA80C /* Message */ = {
-			isa = PBXGroup;
-			children = (
-				CE2305E31C0ED932003AA80C /* Controller */,
-				CE2305E41C0ED932003AA80C /* Model */,
-				CE2305E51C0ED932003AA80C /* View */,
-			);
-			path = Message;
-			sourceTree = "<group>";
-		};
-		CE2305E31C0ED932003AA80C /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				CECCDD3E1C0EF1BD00A4FA6B /* BTMessageViewController.h */,
-				CECCDD3F1C0EF1BD00A4FA6B /* BTMessageViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		CE2305E41C0ED932003AA80C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CE2305E51C0ED932003AA80C /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CE2305EA1C0ED932003AA80C /* Publish */ = {
-			isa = PBXGroup;
-			children = (
-				CE2305EB1C0ED932003AA80C /* Controller */,
-				CE2305EC1C0ED932003AA80C /* Model */,
-				CE2305ED1C0ED932003AA80C /* View */,
-			);
-			path = Publish;
-			sourceTree = "<group>";
-		};
-		CE2305EB1C0ED932003AA80C /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		CE2305EC1C0ED932003AA80C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CE2305ED1C0ED932003AA80C /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CE2305F01C0EE19A003AA80C /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				CE2305F11C0EE19A003AA80C /* Category */,
-				CE2305F21C0EE19A003AA80C /* Tool */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		CE2305F11C0EE19A003AA80C /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				CEF60E531C196BC200255802 /* UIImage+Image.h */,
-				CEF60E541C196BC200255802 /* UIImage+Image.m */,
-				CECCDDBC1C1095EA00A4FA6B /* UIView+Extension.h */,
-				CECCDDBD1C1095EA00A4FA6B /* UIView+Extension.m */,
-				CE8B7B3F1C1EE58A0075325C /* UIImageView+Extension.h */,
-				CE8B7B401C1EE58A0075325C /* UIImageView+Extension.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		CE2305F21C0EE19A003AA80C /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				CECCDD4A1C10431A00A4FA6B /* Http */,
-				CEF60E501C195F1E00255802 /* BTHUDProgress.h */,
-				CEF60E511C195F1E00255802 /* BTHUDProgress.m */,
-				CE8B7B3C1C1EE2510075325C /* BTMJExtension.h */,
-				CE8B7B3D1C1EE2510075325C /* BTMJExtension.m */,
-			);
-			path = Tool;
 			sourceTree = "<group>";
 		};
 		CE2305F31C0EE1AA003AA80C /* My */ = {
@@ -534,6 +356,7 @@
 		CE2305F41C0EE1AA003AA80C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CE9007D41C28114D00A69FC9 /* Message */,
 				CECCDD591C1048C900A4FA6B /* BTMyViewController.h */,
 				CECCDD5A1C1048C900A4FA6B /* BTMyViewController.m */,
 				CEFF26D21C1A5C4200700A51 /* BTLoginController.h */,
@@ -555,90 +378,331 @@
 		CE2305F61C0EE1AA003AA80C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CE9007D81C28117100A69FC9 /* Message */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		CE7034471C1AF78400C9A21D /* Subject */ = {
+		CE3BB0BD1C2A87C000971055 /* Topic */ = {
 			isa = PBXGroup;
 			children = (
-				CE70344A1C1AFCDF00C9A21D /* BTObjectContentCell.h */,
-				CE70344B1C1AFCDF00C9A21D /* BTObjectContentCell.m */,
-				CE70344C1C1AFCDF00C9A21D /* BTObjectContentCell.xib */,
+				CE3BB0BE1C2A886E00971055 /* Controller */,
+				CE3BB0BF1C2A886E00971055 /* Model */,
+				CE3BB0C01C2A886E00971055 /* View */,
 			);
-			path = Subject;
+			path = Topic;
 			sourceTree = "<group>";
 		};
-		CEB4A6001C1DAAEE00EB57F5 /* Search */ = {
+		CE3BB0BE1C2A886E00971055 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CEB4A6011C1DAAEE00EB57F5 /* BTSearchProductViewController.h */,
-				CEB4A6021C1DAAEE00EB57F5 /* BTSearchProductViewController.m */,
-				CEB4A6041C1DAB3B00EB57F5 /* BTSingleProductViewController.h */,
-				CEB4A6051C1DAB3B00EB57F5 /* BTSingleProductViewController.m */,
-				CEB4A6071C1DAB5400EB57F5 /* BTProductListViewController.h */,
-				CEB4A6081C1DAB5400EB57F5 /* BTProductListViewController.m */,
-				CEB4A61B1C1E6CC600EB57F5 /* BTSubProductView.h */,
-				CEB4A61C1C1E6CC600EB57F5 /* BTSubProductView.m */,
+				CE3BB1041C2ABB3400971055 /* BTSubjectViewController.h */,
+				CE3BB1051C2ABB3400971055 /* BTSubjectViewController.m */,
 			);
-			path = Search;
+			path = Controller;
 			sourceTree = "<group>";
 		};
-		CEB4A60A1C1DCC6300EB57F5 /* Search */ = {
+		CE3BB0BF1C2A886E00971055 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CEB4A6161C1DE07300EB57F5 /* BTSceneViewCell.h */,
-				CEB4A6171C1DE07300EB57F5 /* BTSceneViewCell.m */,
-				CEB4A6181C1DE07300EB57F5 /* BTSceneViewCell.xib */,
-				CEB4A61E1C1E6D9100EB57F5 /* BTSubTagViewCell.h */,
-				CEB4A61F1C1E6D9100EB57F5 /* BTSubTagViewCell.m */,
-				CEB4A6201C1E6D9100EB57F5 /* BTSubTagViewCell.xib */,
-				CE8B7B451C1F3B0A0075325C /* BTSingleViewCell.h */,
-				CE8B7B461C1F3B0A0075325C /* BTSingleViewCell.m */,
-				CE8B7B471C1F3B0A0075325C /* BTSingleViewCell.xib */,
-			);
-			path = Search;
-			sourceTree = "<group>";
-		};
-		CEBEB9121C199FEC009863F7 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				CE4AD90A1C19ED0E0039EDF0 /* BTGood.h */,
-				CE4AD90B1C19ED0E0039EDF0 /* BTGood.m */,
-				CEFF26B41C19F20700700A51 /* BTPic.h */,
-				CEFF26B51C19F20700700A51 /* BTPic.m */,
-				CEFF26B71C19F22A00700A51 /* BTTag.h */,
-				CEFF26B81C19F22A00700A51 /* BTTag.m */,
-				CEFF26BA1C19F29000700A51 /* BTProduct.h */,
-				CEFF26BB1C19F29000700A51 /* BTProduct.m */,
-				CEFF26BD1C19F2D500700A51 /* BTDynamic.h */,
-				CEFF26BE1C19F2D500700A51 /* BTDynamic.m */,
-				CE70344F1C1B03D400C9A21D /* BTObject.h */,
-				CE7034501C1B03D400C9A21D /* BTObject.m */,
+				CE3BB10C1C2ABDA900971055 /* BTEntry.h */,
+				CE3BB10D1C2ABDA900971055 /* BTEntry.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		CECCDD4A1C10431A00A4FA6B /* Http */ = {
+		CE3BB0C01C2A886E00971055 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CECCDD4B1C10431A00A4FA6B /* BTHttpUtil.h */,
-				CECCDD4C1C10431A00A4FA6B /* BTHttpUtil.m */,
-				CECCDD4E1C10435400A4FA6B /* BTHttpConstant.h */,
-				CEF60E4D1C195DAE00255802 /* BTHttpRusult.h */,
-				CEF60E4E1C195DAE00255802 /* BTHttpRusult.m */,
+				CE3BB1071C2ABC4C00971055 /* BTObjectContentCell.h */,
+				CE3BB1081C2ABC4C00971055 /* BTObjectContentCell.m */,
+				CE3BB1091C2ABC4C00971055 /* BTObjectContentCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE3BB0C11C2A8B6B00971055 /* ShopList */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BB0C21C2A8B6B00971055 /* Controller */,
+				CE3BB0D51C2A8B6B00971055 /* Model */,
+				CE3BB0DE1C2A8B6B00971055 /* View */,
+			);
+			path = ShopList;
+			sourceTree = "<group>";
+		};
+		CE3BB0C21C2A8B6B00971055 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BB0C31C2A8B6B00971055 /* BTHomeViewController.h */,
+				CE3BB0C41C2A8B6B00971055 /* BTHomeViewController.m */,
+				CE3BB0C71C2A8B6B00971055 /* BTTopicDetailViewController.h */,
+				CE3BB0C81C2A8B6B00971055 /* BTTopicDetailViewController.m */,
+				CE3BB0C91C2A8B6B00971055 /* BTTopicDetailViewController.xib */,
+				CE3BB0CA1C2A8B6B00971055 /* BTTopicViewController.h */,
+				CE3BB0CB1C2A8B6B00971055 /* BTTopicViewController.m */,
+				CE3BB0CC1C2A8B6B00971055 /* Search */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE3BB0CC1C2A8B6B00971055 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BB0CD1C2A8B6B00971055 /* BTShopListCategoryViewController.h */,
+				CE3BB0CE1C2A8B6B00971055 /* BTShopListCategoryViewController.m */,
+				CE3BB0CF1C2A8B6B00971055 /* BTSearchProductViewController.h */,
+				CE3BB0D01C2A8B6B00971055 /* BTSearchProductViewController.m */,
+				CE3BB0D11C2A8B6B00971055 /* BTProductCatagoryListViewController.h */,
+				CE3BB0D21C2A8B6B00971055 /* BTProductCatagoryListViewController.m */,
+				CE3BB0D31C2A8B6B00971055 /* BTSubProductView.h */,
+				CE3BB0D41C2A8B6B00971055 /* BTSubProductView.m */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		CE3BB0D51C2A8B6B00971055 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BB0D61C2A8B6B00971055 /* BTBanner.h */,
+				CE3BB0D71C2A8B6B00971055 /* BTBanner.m */,
+				CE3BB0DA1C2A8B6B00971055 /* BTShopList.h */,
+				CE3BB0DB1C2A8B6B00971055 /* BTShopList.m */,
+				CE3BB0DC1C2A8B6B00971055 /* BTTopic.h */,
+				CE3BB0DD1C2A8B6B00971055 /* BTTopic.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE3BB0DE1C2A8B6B00971055 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BB0DF1C2A8B6B00971055 /* BTEntryView.h */,
+				CE3BB0E01C2A8B6B00971055 /* BTEntryView.m */,
+				CE3BB0E11C2A8B6B00971055 /* BTTopicViewCell.h */,
+				CE3BB0E21C2A8B6B00971055 /* BTTopicViewCell.m */,
+				CE3BB0E31C2A8B6B00971055 /* BTTopicViewCell.xib */,
+				CE3BB0E41C2A8B6B00971055 /* Search */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE3BB0E41C2A8B6B00971055 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BB0E51C2A8B6B00971055 /* BTSceneViewCell.h */,
+				CE3BB0E61C2A8B6B00971055 /* BTSceneViewCell.m */,
+				CE3BB0E71C2A8B6B00971055 /* BTSceneViewCell.xib */,
+				CE3BB0E81C2A8B6B00971055 /* BTSingleViewCell.h */,
+				CE3BB0E91C2A8B6B00971055 /* BTSingleViewCell.m */,
+				CE3BB0EA1C2A8B6B00971055 /* BTSingleViewCell.xib */,
+				CE3BB0EB1C2A8B6B00971055 /* BTSubTagViewCell.h */,
+				CE3BB0EC1C2A8B6B00971055 /* BTSubTagViewCell.m */,
+				CE3BB0ED1C2A8B6B00971055 /* BTSubTagViewCell.xib */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		CE3BB1121C2AC24100971055 /* ShopList */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BB1131C2AC24100971055 /* BTShopListDataTool.h */,
+				CE3BB1141C2AC24100971055 /* BTShopListDataTool.m */,
+			);
+			path = ShopList;
+			sourceTree = "<group>";
+		};
+		CE9007071C280D0900A69FC9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CE9007081C280D0900A69FC9 /* Category */,
+				CE90070F1C280D0900A69FC9 /* System */,
+				CE9007111C280D0900A69FC9 /* Tool */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CE9007081C280D0900A69FC9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CE9007091C280D0900A69FC9 /* UIImage+Image.h */,
+				CE90070A1C280D0900A69FC9 /* UIImage+Image.m */,
+				CE90070B1C280D0900A69FC9 /* UIImageView+Extension.h */,
+				CE90070C1C280D0900A69FC9 /* UIImageView+Extension.m */,
+				CE90070D1C280D0900A69FC9 /* UIView+Extension.h */,
+				CE90070E1C280D0900A69FC9 /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CE90070F1C280D0900A69FC9 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				CE9007271C280EFE00A69FC9 /* BanTang.pch */,
+				CE9007281C280EFE00A69FC9 /* FZLT_Light.TTF */,
+				CE9007251C280DDF00A69FC9 /* main.m */,
+				CE9007101C280D0900A69FC9 /* Info.plist */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		CE9007111C280D0900A69FC9 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				CE9007ED1C2914C700A69FC9 /* DataBase */,
+				CE9007121C280D0900A69FC9 /* BTHUDProgress.h */,
+				CE9007131C280D0900A69FC9 /* BTHUDProgress.m */,
+				CE9007161C280D0900A69FC9 /* DataTool */,
+				CE9007171C280D0900A69FC9 /* Http */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		CE9007161C280D0900A69FC9 /* DataTool */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BB1121C2AC24100971055 /* ShopList */,
+				CE9007F11C291C4E00A69FC9 /* Base */,
+				CE9007E91C2826CF00A69FC9 /* Common */,
+				CE9007E01C281BE900A69FC9 /* My */,
+				CE9007DF1C281BCF00A69FC9 /* Product */,
+			);
+			path = DataTool;
+			sourceTree = "<group>";
+		};
+		CE9007171C280D0900A69FC9 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				CE9007181C280D0900A69FC9 /* BTHttpConstant.h */,
+				CE9007191C280D0900A69FC9 /* BTHttpRusult.h */,
+				CE90071A1C280D0900A69FC9 /* BTHttpRusult.m */,
+				CE90071B1C280D0900A69FC9 /* BTHttpUtil.h */,
+				CE90071C1C280D0900A69FC9 /* BTHttpUtil.m */,
 			);
 			path = Http;
 			sourceTree = "<group>";
 		};
-		CECCDD541C1047B500A4FA6B /* Config */ = {
+		CE90079F1C28110D00A69FC9 /* Product */ = {
 			isa = PBXGroup;
 			children = (
-				CECCDDB81C107F4600A4FA6B /* FZLT_Light.TTF */,
-				CECCDD561C1047B500A4FA6B /* Launch Screen.storyboard */,
-				CECCDD601C10499B00A4FA6B /* BanTang.pch */,
+				CE9007A01C28110D00A69FC9 /* Controller */,
+				CE9007A71C28110D00A69FC9 /* Model */,
+				CE9007B41C28110D00A69FC9 /* View */,
 			);
-			path = Config;
+			path = Product;
+			sourceTree = "<group>";
+		};
+		CE9007A01C28110D00A69FC9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BB10F1C2ABFE900971055 /* BTProductListViewController.h */,
+				CE3BB1101C2ABFE900971055 /* BTProductListViewController.m */,
+				CE9007A11C28110D00A69FC9 /* BTProductViewController.h */,
+				CE9007A21C28110D00A69FC9 /* BTProductViewController.m */,
+				CE9007A51C28110D00A69FC9 /* BTViewWebController.h */,
+				CE9007A61C28110D00A69FC9 /* BTViewWebController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE9007A71C28110D00A69FC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE9007A81C28110D00A69FC9 /* BTDynamic.h */,
+				CE9007A91C28110D00A69FC9 /* BTDynamic.m */,
+				CE9007AC1C28110D00A69FC9 /* BTObject.h */,
+				CE9007AD1C28110D00A69FC9 /* BTObject.m */,
+				CE9007AE1C28110D00A69FC9 /* BTPic.h */,
+				CE9007AF1C28110D00A69FC9 /* BTPic.m */,
+				CE9007B21C28110D00A69FC9 /* BTTag.h */,
+				CE9007B31C28110D00A69FC9 /* BTTag.m */,
+				CE9007FB1C2A375F00A69FC9 /* BTProduct.h */,
+				CE9007FC1C2A375F00A69FC9 /* BTProduct.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE9007B41C28110D00A69FC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE9007B51C28110D00A69FC9 /* BTAttentionBtn.h */,
+				CE9007B61C28110D00A69FC9 /* BTAttentionBtn.m */,
+				CE9007B71C28110D00A69FC9 /* BTCircleImg.h */,
+				CE9007B81C28110D00A69FC9 /* BTCircleImg.m */,
+				CE9007B91C28110D00A69FC9 /* BTGoodBanner.h */,
+				CE9007BA1C28110D00A69FC9 /* BTGoodBanner.m */,
+				CE9007BB1C28110D00A69FC9 /* BTGoodBanner.xib */,
+				CE9007BC1C28110D00A69FC9 /* BTProductViewCell.h */,
+				CE9007BD1C28110D00A69FC9 /* BTProductViewCell.m */,
+				CE9007BE1C28110D00A69FC9 /* BTProductViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE9007D41C28114D00A69FC9 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				CE9007D51C28114D00A69FC9 /* BTMessageViewController.h */,
+				CE9007D61C28114D00A69FC9 /* BTMessageViewController.m */,
+			);
+			name = Message;
+			path = BanTang/My/Controller/Message;
+			sourceTree = SOURCE_ROOT;
+		};
+		CE9007D81C28117100A69FC9 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				CE9007D91C28117100A69FC9 /* BTMessageNoticeCell.h */,
+				CE9007DA1C28117100A69FC9 /* BTMessageNoticeCell.m */,
+				CE9007DB1C28117100A69FC9 /* BTMessageNoticeCell.xib */,
+			);
+			name = Message;
+			path = BanTang/My/View/Message;
+			sourceTree = SOURCE_ROOT;
+		};
+		CE9007DF1C281BCF00A69FC9 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				CE9007F81C29A0F100A69FC9 /* BTProductDataTool.h */,
+				CE9007F91C29A0F100A69FC9 /* BTProductDataTool.m */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		CE9007E01C281BE900A69FC9 /* My */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		CE9007E91C2826CF00A69FC9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CE9007EA1C28270600A69FC9 /* BTIndexListDataTool.h */,
+				CE9007EB1C28270600A69FC9 /* BTIndexListDataTool.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CE9007ED1C2914C700A69FC9 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				CE9007EE1C29150800A69FC9 /* BTDataBaseTool.h */,
+				CE9007EF1C29150800A69FC9 /* BTDataBaseTool.m */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		CE9007F11C291C4E00A69FC9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CE9007F21C291D0F00A69FC9 /* BTMJExtension.h */,
+				CE9007F31C291D0F00A69FC9 /* BTMJExtension.m */,
+				CE9007F51C291D4B00A69FC9 /* BTModelTool.h */,
+				CE9007F61C291D4B00A69FC9 /* BTModelTool.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		CEF60E561C1975FE00255802 /* Controller */ = {
@@ -738,12 +802,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BT;
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = LJ;
 				TargetAttributes = {
 					CE2305A01C0ED7F3003AA80C = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = KW7T3GWHU3;
+						DevelopmentTeam = M57H63JQQD;
 					};
 					CE2305B91C0ED7F3003AA80C = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -782,18 +846,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE70344E1C1AFCDF00C9A21D /* BTObjectContentCell.xib in Resources */,
-				CEFF26D11C19FAA100700A51 /* BTGoodBanner.xib in Resources */,
 				CEFF26D61C1A5C4200700A51 /* BTLoginController.xib in Resources */,
-				CEB4A61A1C1DE07300EB57F5 /* BTSceneViewCell.xib in Resources */,
-				CEB4A6221C1E6D9100EB57F5 /* BTSubTagViewCell.xib in Resources */,
-				CE4AD9071C19E9750039EDF0 /* BTGoodViewCell.xib in Resources */,
-				CECCDDB71C107CB800A4FA6B /* BTTopicViewCell.xib in Resources */,
-				CECCDD581C1047B500A4FA6B /* Launch Screen.storyboard in Resources */,
-				CE8B7B491C1F3B0A0075325C /* BTSingleViewCell.xib in Resources */,
+				CE9007DD1C28117100A69FC9 /* BTMessageNoticeCell.xib in Resources */,
+				CE9007CF1C28110D00A69FC9 /* BTGoodBanner.xib in Resources */,
+				CE3BB0FF1C2A8B6B00971055 /* BTSceneViewCell.xib in Resources */,
+				CE3BB10B1C2ABC4C00971055 /* BTObjectContentCell.xib in Resources */,
+				CE3BB1031C2A8B6B00971055 /* BTSubTagViewCell.xib in Resources */,
+				CE9007D11C28110D00A69FC9 /* BTProductViewCell.xib in Resources */,
+				CE3BB1011C2A8B6B00971055 /* BTSingleViewCell.xib in Resources */,
+				CE3BB0FD1C2A8B6B00971055 /* BTTopicViewCell.xib in Resources */,
 				CE2305B11C0ED7F3003AA80C /* Assets.xcassets in Resources */,
-				CE0BFC271C1275D100CAB293 /* BTTopicDetailViewController.xib in Resources */,
-				CECCDD5F1C10496A00A4FA6B /* Info.plist in Resources */,
+				CE9007291C280EFE00A69FC9 /* FZLT_Light.TTF in Resources */,
+				CE3BB0F11C2A8B6B00971055 /* BTTopicDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -866,53 +930,59 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE7034401C1AD06A00C9A21D /* BTViewWebController.m in Sources */,
 				CEF60E631C1975FE00255802 /* BTNavigationViewController.m in Sources */,
+				CE9007FD1C2A375F00A69FC9 /* BTProduct.m in Sources */,
+				CE9007C61C28110D00A69FC9 /* BTDynamic.m in Sources */,
+				CE3BB0EE1C2A8B6B00971055 /* BTHomeViewController.m in Sources */,
+				CE3BB0FE1C2A8B6B00971055 /* BTSceneViewCell.m in Sources */,
 				CEFF26D51C1A5C4200700A51 /* BTLoginController.m in Sources */,
-				CEF60E521C195F1E00255802 /* BTHUDProgress.m in Sources */,
-				CEF60E551C196BC200255802 /* UIImage+Image.m in Sources */,
-				CEB4A6251C1E9C0F00EB57F5 /* BTTopicViewController.m in Sources */,
-				CE8B7B481C1F3B0A0075325C /* BTSingleViewCell.m in Sources */,
-				CECCDDB61C107CB800A4FA6B /* BTTopicViewCell.m in Sources */,
-				CEFF26B91C19F22A00700A51 /* BTTag.m in Sources */,
+				CE9007F41C291D0F00A69FC9 /* BTMJExtension.m in Sources */,
+				CE9007D71C28114D00A69FC9 /* BTMessageViewController.m in Sources */,
+				CE9007231C280D0900A69FC9 /* BTHttpRusult.m in Sources */,
+				CE9007F01C29150800A69FC9 /* BTDataBaseTool.m in Sources */,
 				CECCDD5B1C1048C900A4FA6B /* BTMyViewController.m in Sources */,
-				CECCDD691C106CD000A4FA6B /* BTEntry.m in Sources */,
-				CE8B7B441C1F36D60075325C /* BTSingleProductListViewController.m in Sources */,
-				CEFF26BF1C19F2D500700A51 /* BTDynamic.m in Sources */,
-				CEFF26C51C19F82000700A51 /* BTAttentionBtn.m in Sources */,
-				CEB4A6191C1DE07300EB57F5 /* BTSceneViewCell.m in Sources */,
-				CE70344D1C1AFCDF00C9A21D /* BTObjectContentCell.m in Sources */,
-				CE0BFC261C1275D100CAB293 /* BTTopicDetailViewController.m in Sources */,
-				CEFF26BC1C19F29000700A51 /* BTProduct.m in Sources */,
-				CE4AD90C1C19ED0E0039EDF0 /* BTGood.m in Sources */,
-				CECCDD3D1C0EF1AE00A4FA6B /* BTHomeViewController.m in Sources */,
-				CEFF26C81C19F92200700A51 /* BTCircleImg.m in Sources */,
-				CECCDD3A1C0EF19D00A4FA6B /* BTGoodViewController.m in Sources */,
-				CE8B7B3E1C1EE2510075325C /* BTMJExtension.m in Sources */,
+				CE9007CD1C28110D00A69FC9 /* BTCircleImg.m in Sources */,
+				CE9007FA1C29A0F100A69FC9 /* BTProductDataTool.m in Sources */,
+				CE3BB0FC1C2A8B6B00971055 /* BTTopicViewCell.m in Sources */,
+				CE3BB0F51C2A8B6B00971055 /* BTProductCatagoryListViewController.m in Sources */,
+				CE3BB0F91C2A8B6B00971055 /* BTShopList.m in Sources */,
+				CE3BB1151C2AC24100971055 /* BTShopListDataTool.m in Sources */,
+				CE9007C31C28110D00A69FC9 /* BTProductViewController.m in Sources */,
+				CE9007CB1C28110D00A69FC9 /* BTTag.m in Sources */,
+				CE9007C51C28110D00A69FC9 /* BTViewWebController.m in Sources */,
 				CEF60E641C1975FE00255802 /* BTTabBarController.m in Sources */,
+				CE3BB10E1C2ABDA900971055 /* BTEntry.m in Sources */,
 				CEF60E621C1975FE00255802 /* BTHomeNavigationViewController.m in Sources */,
-				CEF60E4F1C195DAE00255802 /* BTHttpRusult.m in Sources */,
 				CEFF26B31C19F1B900700A51 /* BTUser.m in Sources */,
-				CE4AD9061C19E9750039EDF0 /* BTGoodViewCell.m in Sources */,
+				CE9007CE1C28110D00A69FC9 /* BTGoodBanner.m in Sources */,
+				CE9007241C280D0900A69FC9 /* BTHttpUtil.m in Sources */,
+				CE3BB1111C2ABFE900971055 /* BTProductListViewController.m in Sources */,
+				CE3BB10A1C2ABC4C00971055 /* BTObjectContentCell.m in Sources */,
+				CE9007211C280D0900A69FC9 /* BTHUDProgress.m in Sources */,
+				CE3BB0FA1C2A8B6B00971055 /* BTTopic.m in Sources */,
+				CE3BB1021C2A8B6B00971055 /* BTSubTagViewCell.m in Sources */,
+				CE3BB1001C2A8B6B00971055 /* BTSingleViewCell.m in Sources */,
+				CE3BB1061C2ABB3400971055 /* BTSubjectViewController.m in Sources */,
+				CE3BB0F71C2A8B6B00971055 /* BTBanner.m in Sources */,
+				CE3BB0FB1C2A8B6B00971055 /* BTEntryView.m in Sources */,
 				CEBEB90E1C197663009863F7 /* BTTabbar.m in Sources */,
-				CEB4A61D1C1E6CC600EB57F5 /* BTSubProductView.m in Sources */,
-				CEB4A6091C1DAB5400EB57F5 /* BTProductListViewController.m in Sources */,
-				CEB4A6061C1DAB3B00EB57F5 /* BTSingleProductViewController.m in Sources */,
-				CECCDD661C106BC600A4FA6B /* BTBanner.m in Sources */,
-				CECCDD4D1C10431A00A4FA6B /* BTHttpUtil.m in Sources */,
-				CE7034511C1B03D400C9A21D /* BTObject.m in Sources */,
-				CE2305A61C0ED7F3003AA80C /* main.m in Sources */,
-				CE8B7B411C1EE58A0075325C /* UIImageView+Extension.m in Sources */,
-				CECCDD631C106B3400A4FA6B /* BTTopic.m in Sources */,
-				CECCDD401C0EF1BD00A4FA6B /* BTMessageViewController.m in Sources */,
-				CEB4A6031C1DAAEE00EB57F5 /* BTSearchProductViewController.m in Sources */,
+				CE9007C91C28110D00A69FC9 /* BTPic.m in Sources */,
+				CE3BB0F41C2A8B6B00971055 /* BTSearchProductViewController.m in Sources */,
+				CE9007CC1C28110D00A69FC9 /* BTAttentionBtn.m in Sources */,
+				CE3BB0F31C2A8B6B00971055 /* BTShopListCategoryViewController.m in Sources */,
+				CE9007DC1C28117100A69FC9 /* BTMessageNoticeCell.m in Sources */,
+				CE3BB0F61C2A8B6B00971055 /* BTSubProductView.m in Sources */,
+				CE90071E1C280D0900A69FC9 /* UIImageView+Extension.m in Sources */,
 				CEF60E611C1975FE00255802 /* AppDelegate.m in Sources */,
-				CECCDDBE1C1095EA00A4FA6B /* UIView+Extension.m in Sources */,
-				CEFF26B61C19F20700700A51 /* BTPic.m in Sources */,
-				CE7034441C1AF58C00C9A21D /* BTSubjectViewController.m in Sources */,
-				CECCDDBB1C10921400A4FA6B /* BTEntryView.m in Sources */,
-				CEB4A6211C1E6D9100EB57F5 /* BTSubTagViewCell.m in Sources */,
-				CEFF26D01C19FAA100700A51 /* BTGoodBanner.m in Sources */,
+				CE9007261C280DDF00A69FC9 /* main.m in Sources */,
+				CE3BB0F01C2A8B6B00971055 /* BTTopicDetailViewController.m in Sources */,
+				CE9007F71C291D4B00A69FC9 /* BTModelTool.m in Sources */,
+				CE90071D1C280D0900A69FC9 /* UIImage+Image.m in Sources */,
+				CE9007C81C28110D00A69FC9 /* BTObject.m in Sources */,
+				CE9007EC1C28270600A69FC9 /* BTIndexListDataTool.m in Sources */,
+				CE9007D01C28110D00A69FC9 /* BTProductViewCell.m in Sources */,
+				CE3BB0F21C2A8B6B00971055 /* BTTopicViewController.m in Sources */,
+				CE90071F1C280D0900A69FC9 /* UIView+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1033,11 +1103,15 @@
 			baseConfigurationReference = 7D7A606228221530EFB80A36 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "${SRCROOT}/BanTang/Config/BanTang.pch";
-				INFOPLIST_FILE = BanTang/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "${SRCROOT}/BanTang/Other/System/BanTang.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/BanTang/Other/System/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.liujun.BanTang;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liujun.BanTang1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -1046,11 +1120,15 @@
 			baseConfigurationReference = A24B16AA4F07E7E45140E1A1 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "${SRCROOT}/BanTang/Config/BanTang.pch";
-				INFOPLIST_FILE = BanTang/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "${SRCROOT}/BanTang/Other/System/BanTang.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/BanTang/Other/System/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.liujun.BanTang;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liujun.BanTang1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

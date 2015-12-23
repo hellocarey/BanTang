@@ -23,6 +23,11 @@
     
     navigationBar.barStyle = UIBarStyleBlackOpaque;
     
+    navigationBar.tintColor = [UIColor whiteColor];
+    
+    UIBarButtonItem *item = [UIBarButtonItem appearance];
+    [item setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -64) forBarMetrics:UIBarMetricsDefault];
+    
 }
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
@@ -33,10 +38,10 @@
         
         viewController.hidesBottomBarWhenPushed = YES;
         
-        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[[UIImage imageNamed:@"back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStyleDone target:self action:@selector(popViewControllerAnimated:)];
+//        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[[UIImage imageNamed:@"back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStyleDone target:self action:@selector(popViewControllerAnimated:)];
         
     }
-    
+
     [super pushViewController:viewController animated:animated];
     
 }

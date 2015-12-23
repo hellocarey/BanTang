@@ -1,0 +1,152 @@
+//
+//  BTHttpUtil.m
+//  BanTang
+//
+//  Created by User on 15/12/3.
+//  Copyright © 2015年 LJ. All rights reserved.
+//
+
+#import "BTHttpUtil.h"
+
+@implementation BTHttpUtil
+
+#pragma mark -请求http单例
++ (instancetype)shareHttpUtil{
+    
+    static BTHttpUtil *btHttpUtil = nil;
+    
+    static dispatch_once_t onceToken;
+    
+    dispatch_once(&onceToken, ^{
+        btHttpUtil = [[BTHttpUtil alloc] init];
+    });
+    
+    return btHttpUtil;
+}
+
+#pragma mark -请求get，post 方法
+- (void) POST:(NSString *)url parameters:(id)parameters success:(SuccessBlock) success failure:(FailureBlock)failure{
+    
+    AFHTTPSessionManager *session = [AFHTTPSessionManager manager];
+    
+    [session POST:url parameters:[BTHttpUtil addParameters:parameters] success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
+        
+        [self detailData:responseObject success:success failure:failure];
+        
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        
+        failure(error);
+        
+    }];
+    
+    
+}
+
+- (void) GET:(NSString *)url parameters:(id)parameters success:(SuccessBlock) success failure:(FailureBlock)failure{
+    
+    AFHTTPSessionManager *session = [AFHTTPSessionManager manager];
+    
+    [session GET:url parameters:[BTHttpUtil addParameters:parameters] success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
+        
+        [self detailData:responseObject success:success failure:failure];
+        
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        
+        failure(error);
+        
+    }];
+    
+}
+
+
+#pragma mark -添加参数 (静态数据，后期进行修改)
++ (NSDictionary *)addParameters:(NSDictionary *)dic{
+    
+    NSMutableDictionary *dictionary = [NSMutableDictionary dictionary];
+    
+    [dictionary setValue:@"1449024710.437825" forKey:@"app_installtime"];
+    
+    [dictionary setValue:@"5.0" forKey:@"app_versions"];
+    
+    [dictionary setValue:@"appStore" forKey:@"channel_name"];
+    
+    [dictionary setValue:@"bt_app_ios" forKey:@"client_id"];
+    
+    [dictionary setValue:@"9c1e6634ce1c5098e056628cd66a17a5" forKey:@"client_secret"];
+    
+    [dictionary setValue:@"e39235ddf91f9180aea1785b4b6ec20d" forKey:@"oauth_token"];
+    
+    [dictionary setValue:@"9.1" forKey:@"os_versions"];
+    
+    [dictionary setValue:@"1242" forKey:@"screensize"];
+    
+    [dictionary setValue:@"iPhone8%2C2" forKey:@"track_device_info"];
+    
+    [dictionary setValue:@"5530DBEF-8B11-4E67-B7AB-13AD687ECFD" forKey:@"track_deviceid"];
+    
+    [dictionary setValue:@"1570743" forKey:@"track_user_id"];
+    
+    [dictionary setValue:@"8" forKey:@"v"];
+    
+    [dictionary addEntriesFromDictionary:dic];
+    
+    return [dictionary copy];
+    
+}
+
+#pragma arguments - detail data
+- (void)detailData:(id)responseObject success:(SuccessBlock) success failure:(FailureBlock)failure{
+    
+    NSDictionary *dic = responseObject[@"data"];
+    
+    if(dic!=nil){
+        
+        success(dic);
+        
+    }else{
+        
+        failure(responseObject);
+        
+    }
+    
+}
+
+#pragma mark - network status
+
+/**监控网络状态*/
+
++ (void)checkNetworkStatus:(NetWork)network{
+    
+    __block BOOL isNetworkUse = YES;
+    
+    AFNetworkReachabilityManager *reachabilityManager = [AFNetworkReachabilityManager sharedManager];
+    
+    [reachabilityManager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+        
+        if (status == AFNetworkReachabilityStatusUnknown) {
+            
+            isNetworkUse = YES;
+            
+        } else if (status == AFNetworkReachabilityStatusReachableViaWiFi){
+            
+            isNetworkUse = YES;
+            
+        } else if (status == AFNetworkReachabilityStatusReachableViaWWAN){
+            
+            isNetworkUse = YES;
+            
+        } else if (status == AFNetworkReachabilityStatusNotReachable){
+            
+            // 网络异常操作
+            isNetworkUse = NO;
+            
+        }
+        
+        network(isNetworkUse);
+        
+    }];
+    
+    [reachabilityManager startMonitoring];
+
+}
+@end

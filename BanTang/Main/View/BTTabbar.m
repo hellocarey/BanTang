@@ -24,22 +24,20 @@
     self = [super initWithFrame:frame];
     
     if (self) {
-        
-        self.backgroundColor = [UIColor whiteColor];
-        
+
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+
+        [btn setImage: [UIImage imageNamed:@"tab_publish_add"] forState:UIControlStateNormal];
         
-        UIImage *image = [UIImage imageNamed:@"public"];
-        
-        [btn setImage:image forState:UIControlStateNormal];
-        
-        [btn setImage:image forState:UIControlStateSelected];
+        [btn setImage: [UIImage imageNamed:@"tab_publish_add_pressed"] forState:UIControlStateSelected];
         
         [btn sizeToFit];
         
         [btn addTarget:self action:@selector(publish) forControlEvents:UIControlEventTouchUpInside];
         
         [self addSubview:btn];
+        
+        self.selectionIndicatorImage = [UIImage imageNamed:@"tab_bar_bg"];
         
     }
     
@@ -60,6 +58,12 @@
     
 }
 
+
+//-(UIImage *)backgroundImage{
+//    
+//    return [UIImage imageNamed:@"tab_bar_bg"];
+//    
+//}
 /**
  *  布局子控件
  */
@@ -86,6 +90,8 @@
         }
         
     }
+    
+    
     
 }
 

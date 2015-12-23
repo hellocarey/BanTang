@@ -9,7 +9,7 @@
 #import "BTMyViewController.h"
 #import "BTTabBarController.h"
 #import "BTHomeViewController.h"
-#import "BTGoodViewController.h"
+#import "BTProductViewController.h"
 #import "BTMessageViewController.h"
 #import "BTNavigationViewController.h"
 #import "BTHomeNavigationViewController.h"
@@ -17,9 +17,20 @@
 
 @interface BTTabBarController ()
 
+@property(nonatomic,weak)BTTabbar *tabbar;
+
 @end
 
 @implementation BTTabBarController
+
+static NSArray *tabArray;
+
++ (void)initialize{
+    
+    tabArray = @[@{@"tab_home":[BTHomeViewController new]},@{@"tab_good":[BTProductViewController new]},@{@"tab_category":[BTMessageViewController new]},@{@"tab_my":[BTMyViewController new]}];
+    
+}
+
 
 - (void)viewDidLoad {
     
@@ -33,13 +44,13 @@
 
 - (void)addChildrens{
     
-    [self addChildViewController:[[BTHomeViewController alloc] init] imageName:@"home" selectImageName:@"home_focus"];
-    
-    [self addChildViewController:[[BTGoodViewController alloc] init]  imageName:@"hot" selectImageName:@"hot-focus"];
-    
-    [self addChildViewController:[[BTMyViewController alloc] init]  imageName:@"sound" selectImageName:@"sound_focus"];
-    
-    [self addChildViewController:[[BTMyViewController alloc] init]  imageName:@"user" selectImageName:@"user-focus"];
+    for (NSDictionary *dic in tabArray) {
+        
+        NSString *key = [dic.allKeys firstObject];
+        
+        [self addChildViewController:[dic.allValues firstObject]  imageName:key selectImageName:[NSString stringWithFormat:@"%@_pressed",key]];
+        
+    }
     
 }
 
@@ -59,8 +70,26 @@
 
 - (void)setupItemBar{
     
-    [self setValue:[[BTTabbar alloc] init] forKey:@"tabBar"];
+    BTTabbar *tabbar = [[BTTabbar alloc] init];
+    
+    tabbar.backgroundImage = [UIImage imageNamed:@"tab_bar_bg"];
+    
+    _tabbar =  tabbar;
+    [self setValue:tabbar forKey:@"tabBar"];
+    
+    //[self setValue:[UIImage imageNamed:@"tab_bar_bg"] forKeyPath:@"tabBar.backgroundImage"];
+    
+    //self.;
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+    
+    [super viewWillAppear:animated];
+    
+   _tabbar.backgroundImage = [UIImage imageNamed:@"tab_bar_bg"];
     
 }
+
+
 
 @end
